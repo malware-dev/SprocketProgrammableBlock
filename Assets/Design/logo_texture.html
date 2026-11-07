@@ -1,0 +1,16 @@
+<!doctype html>
+<!-- The logo panel as a texture: mockup.html's lockPanel, stretched to fill a 2048 x 512 frame. The model's UVs map the
+     whole frame onto the 0.59 x 0.09 m panel, which undoes the stretch. Rendered by ../make_logo.py. -->
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#0b0d10;overflow:hidden}svg{display:block}</style></head><body>
+<svg width="2048" height="512" viewBox="-26 -18 880 136" preserveAspectRatio="none">
+ <defs>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2026"/><stop offset="1" stop-color="#0b0d10"/></linearGradient>
+  <linearGradient id="light" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6E1EC"/><stop offset=".4" stop-color="#F6FAFD"/><stop offset="1" stop-color="#C4D1DF"/></linearGradient>
+  <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EAB256"/><stop offset="1" stop-color="#D2963E"/></linearGradient>
+ </defs>
+ <rect x="-26" y="-18" width="880" height="136" fill="url(#glass)"/>
+ <rect x="-24" y="-16" width="876" height="132" rx="38" fill="none" stroke="#b8bdc3" stroke-width="4"/>
+ <image href="icon.svg" x="0" y="0" width="100" height="100"/>
+ <text x="124" y="68" font-family="Bahnschrift" font-weight="600" font-size="50"><tspan letter-spacing="3" fill="url(#light)">SPROCKET</tspan><tspan dx="26" letter-spacing="11" fill="url(#amber)">AUTOMATION</tspan></text>
+</svg>
+</body></html>

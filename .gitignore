@@ -1,0 +1,71 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+.nuget/
+
+## MSBuild
+*.binlog
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Editors / misc
+*.swp
+*~
+
+## MDK2
+mdk.local.ini
+
+## Python
+__pycache__/
+
+## Assets: the blend holds the models, LODs and build stages; the scripts that made them stay local.
+/Assets/*
+!/Assets/SprocketProgrammableBlock.blend
+!/Assets/Design/
+!/Assets/Textures/
+*.blend1

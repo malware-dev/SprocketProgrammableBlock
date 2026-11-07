@@ -1,0 +1,22 @@
+[h1]Sprocket Programmable Block[/h1]
+
+Sprocket Automation's take on the programmable block. It's a [i]real[/i] programmable block, so every script you already use works on it, screens and all.
+
+[h2]Blocks[/h2]
+Large grid only.
+[list]
+[*][b]Sprocket Programmable Block[/b]: a slim device that mounts on a wall by its back.
+[*][b]Sprocket Programmable Block Inset[/b]: a full, airtight block with the same device set into its front. Mounts on any side.
+[/list]
+
+Both show up in the G menu as variants of the vanilla programmable block, right next to Keen's own.
+
+[h2]Sprocket Automation[/h2]
+This is a perfectly fine programmable block all on its own. It doesn't need anything else.
+
+It does carry the name for a reason, though. Add [b]Sprocket Automation[/b] and your ship's automation runs right here, without a single line of script: logic systems with triggers that run their steps in order, waiting on what your blocks are actually doing (a door that's actually closed) instead of on timers. Sprocket lives in every programmable block on the ship, so losing one doesn't lose your logic, and a backup can restore it to a new ship.
+
+[h2]License[/h2]
+Released under the MIT License, which is included in the mod's files.
+
+The source lives at https://github.com/malware-dev/SprocketProgrammableBlock. Before publishing your own copy, please consider contributing there instead, so players know where each bug and feature lives and reports reach the right authors.
