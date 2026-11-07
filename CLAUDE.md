@@ -119,11 +119,26 @@ and its placeholder is one step where their screen sits (0.99 m); ours sits 1.06
 (screen 1.2 mm off the placeholder, placeholder 1.2 mm off the glass) and the housing seam 1.5 mm. `find_zfighting.py`
 reads exact positions and cannot see this; check the compiled positions (scratch `mwm_parts.py`) or a half-float copy.
 
-**Workshop.** The page is `Workshop/description.txt`, in Mal's voice. Sprocket Automation's own Workshop link goes into
-its Sprocket section once Sprocket is released (planned 2026-11-16). The thumbnail is Sprocket's Companion layout, owned
-by sprocket-main: `..\Sprocket\art\thumbnail\build_companion_thumb.py Assets\Screenshots\01-both-variants.jpg
-"Programmable Block" SprocketProgrammableBlock\thumb.png 0.07 0.19 0.93 0.83`. The blocks are named "Sprocket
-Programmable Block" and "... Inset" (Mal: the full company name is too long); the subtypes keep their ids.
+**Workshop.** The page is `Workshop/description.txt`, in Mal's voice. Published 2026-11-07 as an unlisted item, id
+3835340489, with Sprocket's se-workshop-publish skill (Sprocket's `.claude/skills`); its title is the folder's name
+until Mal renames it on the page. The repository stays private until Mal makes the mod public, and its link on the
+unlisted page 404s on purpose: https://github.com/malware-dev/SprocketProgrammableBlock.
+
+Updating it, only when Mal asks, is Sprocket's se-workshop-publish skill with `--mods "SprocketProgrammableBlock"`.
+What is this mod's own:
+
+- Its changelog is `Workshop/changelog-next.txt`, not the skill's memory.
+- Give `--description` and `--message` absolute paths: the tool looks for a relative one in `Bin64`. A `--message` file
+  it cannot find is posted as text, so check the dry run says it read the file. The description file replaces the
+  page's description on every update.
+- The upload takes the deployed folder, `thumb.png` included, so it carries whatever was built last.
+- Check the materials for DLC (`check_dlc.py`, see "Changing the model") before it.
+
+Sprocket Automation's own Workshop link goes into the description's Sprocket section once Sprocket is released
+(planned 2026-11-16). The thumbnail is Sprocket's Companion layout, owned by sprocket-main:
+`..\Sprocket\art\thumbnail\build_companion_thumb.py Assets\Screenshots\01-both-variants.jpg "Programmable Block"
+SprocketProgrammableBlock\thumb.png 0.07 0.19 0.93 0.83`. The blocks are named "Sprocket Programmable Block" and
+"... Inset" (Mal: the full company name is too long); the subtypes keep their ids.
 
 **The inset variant** (`SprocketProgrammableBlockInset`): a full `PaintedMetal_Colorable` cube with an armour seam on
 each face, the device in a dark well in its Front just inside the face, mounted on every side, airtight like Keen's
