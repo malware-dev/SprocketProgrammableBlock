@@ -11,11 +11,14 @@ namespace SprocketProgrammableBlock
 {
     /// <summary>Opens the block's keyboard tray for a player standing at it or using its terminal, and folds it after they leave.</summary>
     /// <remarks>Runs on clients only: the tray is drawn, and the server keeps no state for it.</remarks>
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_MyProgrammableBlock), false, "SprocketProgrammableBlock", "SprocketProgrammableBlockInset")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_MyProgrammableBlock), false, WallSubtype, InsetSubtype)]
     public class KeyboardTray : MyGameLogicComponent
     {
-        // The mod's CLAUDE.md: the tray opens for a player within 3 m, and folds about 2 s after they leave.
-        const double ReachSquared = 3.0 * 3.0;
+        // Content/Data/CubeBlocks/SprocketProgrammableBlock.sbc.
+        const string WallSubtype = "SprocketProgrammableBlock";
+        const string InsetSubtype = "SprocketProgrammableBlockInset";
+
+        // The mod's CLAUDE.md: the tray folds about 2 s after the player leaves.
         const int FoldDelayChecks = 12;
 
         // Players are looked for every 10 ticks, and only while the camera is this close; 100-tick checks keep watch for it.
@@ -25,6 +28,7 @@ namespace SprocketProgrammableBlock
         IMyCubeBlock _block;
         TrayHinge _hinge;
         KeysScreen _keys;
+        bool _isInset;
         bool _isWatched;
         int _checksSinceWanted = FoldDelayChecks;
 
@@ -36,6 +40,7 @@ namespace SprocketProgrammableBlock
             _block = (IMyCubeBlock)Entity;
             _hinge = new TrayHinge(Entity);
             _keys = new KeysScreen((IMyTerminalBlock)Entity);
+            _isInset = _block.BlockDefinition.SubtypeId == InsetSubtype;
             NeedsUpdate = MyEntityUpdateEnum.EACH_100TH_FRAME;
         }
 
@@ -93,19 +98,16 @@ namespace SprocketProgrammableBlock
             // Only the local player's terminal is known to this client.
             if (MyAPIGateway.Gui.InteractedEntity == Entity)
                 return true;
-            return IsPlayerInFront();
+            return IsPlayerAtDevice();
         }
 
-        // Measured from the tray's hinge, at the device's foot: the wall variant's device is at the back of its cell and
-        // the inset's at the front. A player in the room behind the device is close, and is not standing at it.
-        bool IsPlayerInFront()
+        bool IsPlayerAtDevice()
         {
-            var tray = _hinge.Tray;
-            if (tray == null)
-                return false;
-            var world = BlockWorld();
-            var hinge = Vector3D.Transform(tray.PositionComp.LocalMatrixRef.Translation, world);
-            var forward = world.Forward;
+            // Where a player at the device stands: the wall variant's device is at the back of its own cell, the
+            // inset's set into its cube's front face, so it is used from the cell in front. Read each check, as a merge
+            // can move the block to another cell.
+            var standingCell = _isInset ? _block.Position + Base6Directions.GetIntVector(_block.Orientation.Forward) : _block.Position;
+            var grid = _block.CubeGrid;
             _players.Clear();
             MyAPIGateway.Players.GetPlayers(_players);
             foreach (var player in _players)
@@ -113,8 +115,8 @@ namespace SprocketProgrammableBlock
                 var character = player.Character;
                 if (character == null || character.IsDead)
                     continue;
-                var position = character.GetPosition();
-                if (Vector3D.DistanceSquared(position, hinge) < ReachSquared && Vector3D.Dot(position - hinge, forward) > 0)
+                // The body's middle: a character's position is at its feet, which on a floor sit on a cell's boundary.
+                if (grid.WorldToGridInteger(character.WorldAABB.Center) == standingCell)
                     return true;
             }
             return false;

@@ -66,7 +66,9 @@ Through sprocket-main and in the HoverRepulsors session, where the first models 
   #DCBC7A .82, #86642E; silver #D6E1EC, #F6FAFD .4, #C4D1DF; amber #EAB256 to #D2963E.
 - **Height.** The screen's middle at standing eye height, about 1.6 m above the cell's floor, not centred. Mal: "we'll
   try your way first".
-- **Tray.** Swings down when a player is within 3 m or opens the terminal, folds back about 2 s after they leave.
+- **Tray.** Swings down when a player stands at the device or opens the terminal, folds back about 2 s after they leave.
+  At the device (Mal, 2026-11-09; it was within 3 m): in the wall variant's own cell, or the cell in front of the
+  inset's face.
 - **Status line.** The programmable block's own `Emissive`, driven by the game. No code for it; only the tray needs code.
 - **Shell.** `PaintedMetal_Clean`: paintable everywhere, with no scratches or wear. Mal agreed glossy; Clean was chosen
   after renders showed the glossy texture's scratches. Tell him.
@@ -94,7 +96,8 @@ How it is made (the scripts are local only):
   black. The glass's gloss is 180, Keen's cockpit glass.
 - `Assets/make_icons.sh` renders both icons.
 - `KeyboardTray.cs`: client-side game logic, a 100-tick camera check within 30 m, then 10-tick checks for a player
-  within 3 m in front of the hinge or the local player's terminal open on this block, folding 2 s after. Positions come
+  whose body's middle is in the cell the device is used from, or the local player's terminal open on this block,
+  folding 2 s after. Positions come
   from the grid's world matrix, which stays current on a moving grid when the block's does not. `TrayHinge.cs` moves the
   `Keyboard` subpart, per tick only while it swings. The tray opens on a built, undamaged block, powered or not.
 - **The tray's sound.** `TrayHinge` plays `SprocketPBTrayOpen` or `SprocketPBTrayFold` (`Content/Data/Audio.sbc`, an
