@@ -97,6 +97,13 @@ How it is made (the scripts are local only):
   within 3 m in front of the hinge or the local player's terminal open on this block, folding 2 s after. Positions come
   from the grid's world matrix, which stays current on a moving grid when the block's does not. `TrayHinge.cs` moves the
   `Keyboard` subpart, per tick only while it swings. The tray opens on a built, undamaged block, powered or not.
+- **The tray's sound.** `TrayHinge` plays `SprocketPBTrayOpen` or `SprocketPBTrayFold` (`Content/Data/Audio.sbc`, an
+  Arc and a Real pair each, 8 m) through `TraySound.cs` once, as a swing toward a new target starts, and keeps the
+  block's world matrix current until the sound ends, so it follows a moving grid. A tray folded at once, as the camera
+  leaves, is silent. Mal's brief: a tiny car-window motor, "duiii-i - duit" (the move, a small dip, a short correcting nudge),
+  and on the fold a tap as the tray settles into its notch. `Assets/Audio/make_tray_sound.py` synthesizes both into
+  `Content/Audio/SprocketProgrammableBlock`, its comments holding what Mal chose and why. The motor peaks 12 dB under
+  the tap, the files are loud, and `Volume` in Audio.sbc (0.4) sets the level in the game: 0.15 was too quiet there.
 - The folded tray sits flush in a well cut into the shell (open through the device's foot), with the logo panel and a
   vent on the well's floor. `detector_terminal_001` covers the face, tilted with it, and outlines
   `ScreenGlass_section;subpart_Keyboard`: the game reads a `subpart_` entry in a detector's highlight as that subpart.

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- The keyboard tray's motor, heard only at the block. Each sound comes as an Arc and a Real pair, as Keen's do;
+       MySoundPair picks one by the world's sound mode. Made by Assets/Audio/make_tray_sound.py. -->
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcSprocketPBTrayOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.4</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SprocketProgrammableBlock\TrayOpen.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealSprocketPBTrayOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK_R</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.4</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SprocketProgrammableBlock\TrayOpen.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcSprocketPBTrayFold</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.4</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SprocketProgrammableBlock\TrayFold.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealSprocketPBTrayFold</SubtypeId>
+      </Id>
+      <Category>BLOCK_R</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.4</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SprocketProgrammableBlock\TrayFold.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

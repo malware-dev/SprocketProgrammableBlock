@@ -40,6 +40,13 @@ namespace SprocketProgrammableBlock
         }
 
         /// <inheritdoc />
+        public override void Close()
+        {
+            _hinge?.Close();
+            base.Close();
+        }
+
+        /// <inheritdoc />
         public override void UpdateBeforeSimulation100()
         {
             var camera = MyAPIGateway.Session.Camera;
@@ -71,7 +78,7 @@ namespace SprocketProgrammableBlock
         }
 
         /// <inheritdoc />
-        /// <remarks>Runs every tick only while the tray swings, for a smooth swing.</remarks>
+        /// <remarks>Runs every tick only while the tray swings or its sound plays, for a smooth swing and a sound that follows a moving grid.</remarks>
         public override void UpdateBeforeSimulation()
         {
             if (!_hinge.Step())
