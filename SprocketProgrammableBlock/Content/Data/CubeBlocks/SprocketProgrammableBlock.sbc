@@ -17,9 +17,8 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\SprocketProgrammableBlock.mwm</Model>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SprocketProgrammableBlock_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SprocketProgrammableBlock_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SprocketProgrammableBlock_BS3.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\SprocketProgrammableBlock_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SprocketProgrammableBlock_BS2.mwm" />
       </BuildProgressModels>
       <Components>
         <Component Subtype="SteelPlate" Count="4" />

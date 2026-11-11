@@ -154,9 +154,11 @@ SprocketProgrammableBlock\thumb.png 0.07 0.19 0.93 0.83`. The blocks are named "
 each face, the device in a dark well in its Front just inside the face, mounted on every side, airtight like Keen's
 inset refill station.
 
-**Build stages and LODs** (se-block-stages skill; Mal: follow Keen's lead). `Assets/Stages/stages.txt` holds the list,
-after Keen's refill station: three stages at 0.33/0.66/1.00, LODs at 8, 25 and 45 m. Wall: frame, frame and mounting
-plate, housing with glass and logo panel. Inset: frame on every edge, the cube with its empty well, the device set in.
+**Build stages and LODs** (se-block-stages skill). `Assets/Stages/stages.txt` holds the list; LODs at 8, 25 and 45 m,
+after Keen's refill station. Mal redesigned the stages on 2026-11-11: the first version's stages after the frame barely
+differed. Wall, two stages at 0.50/1.00: its frame, then its bare housing (no glass or logo panel). Inset, three at
+0.33/0.66/1.00, building the wall variant in its well stage for stage: the cube's frame with the well's mouth framed;
+the bottom, back and right walls with the wall's BS1 in the well; the closed cube with the wall's BS2 in the well.
 The overlay is in no stage (a decal in Construction paint is a solid quad). The derived models replace build_models.py's,
 so after any model change: run build_models.py, copy its blend to `Assets/Stages/SprocketPB.blend`, run
 `derive_stages.py` windowed on it with `--stages Assets/Stages/stages.txt --out Assets/Stages/out`, then copy
