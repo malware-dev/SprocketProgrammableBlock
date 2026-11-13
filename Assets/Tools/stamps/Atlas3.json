@@ -1,0 +1,1550 @@
+[
+{
+"name": "Angled Bordervent",
+"material": "Atlas3_Colorable",
+"width": 0.215,
+"height": 0.451,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.141,
+0.0037
+],
+[
+0.2268,
+0.0037
+],
+[
+0.2268,
+0.1841
+],
+[
+0.141,
+0.1841
+]
+]
+]
+},
+{
+"name": "Angled Inset",
+"material": "Atlas3_Colorable",
+"width": 1.246,
+"height": 0.156,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.1878
+],
+[
+0.4985,
+0.1878
+],
+[
+0.4985,
+0.2503
+],
+[
+0.0,
+0.2503
+]
+]
+]
+},
+{
+"name": "Bordered Inset",
+"material": "Atlas3_Colorable",
+"width": 0.633,
+"height": 0.313,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.6239,
+0.1252
+],
+[
+0.8771,
+0.1252
+],
+[
+0.8771,
+0.2503
+],
+[
+0.6239,
+0.2503
+]
+]
+]
+},
+{
+"name": "Circular Dimple",
+"material": "Atlas3_Colorable",
+"width": 0.153,
+"height": 0.153,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.9389,
+0.7506
+],
+[
+1.0,
+0.7506
+],
+[
+1.0,
+0.8117
+],
+[
+0.9389,
+0.8117
+]
+]
+]
+},
+{
+"name": "Circular Inset",
+"material": "Atlas3_Colorable",
+"width": 0.285,
+"height": 0.285,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.8805,
+0.3807
+],
+[
+0.9945,
+0.3807
+],
+[
+0.9945,
+0.4949
+],
+[
+0.8805,
+0.4949
+]
+]
+]
+},
+{
+"name": "Circular Vent",
+"material": "Atlas3_Colorable",
+"width": 0.471,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.7487,
+0.8129
+],
+[
+0.9372,
+0.8129
+],
+[
+0.9372,
+1.0
+],
+[
+0.7487,
+1.0
+]
+]
+]
+},
+{
+"name": "Corner Hinge Mount",
+"material": "Atlas3_Colorable",
+"width": 0.156,
+"height": 0.307,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.9375,
+0.5629
+],
+[
+1.0,
+0.5629
+],
+[
+1.0,
+0.6858
+],
+[
+0.9375,
+0.6858
+]
+]
+]
+},
+{
+"name": "Corner Mount",
+"material": "Atlas3_Colorable",
+"width": 0.156,
+"height": 0.307,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.875,
+0.5629
+],
+[
+0.9375,
+0.5629
+],
+[
+0.9375,
+0.6858
+],
+[
+0.875,
+0.6858
+]
+]
+]
+},
+{
+"name": "Corner Trisquare",
+"material": "Atlas3_Colorable",
+"width": 0.47,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.2503
+],
+[
+0.1881,
+0.2503
+],
+[
+0.1881,
+0.4376
+],
+[
+0.0,
+0.4376
+]
+]
+]
+},
+{
+"name": "Dimple Plate",
+"material": "Atlas3_Colorable",
+"width": 0.451,
+"height": 0.301,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.7538,
+0.6902
+],
+[
+0.9343,
+0.6902
+],
+[
+0.9343,
+0.8104
+],
+[
+0.7538,
+0.8104
+]
+]
+]
+},
+{
+"name": "Double Inset",
+"material": "Atlas3_Colorable",
+"width": 0.259,
+"height": 0.258,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.8852,
+0.2605
+],
+[
+0.9887,
+0.2605
+],
+[
+0.9887,
+0.3637
+],
+[
+0.8852,
+0.3637
+]
+]
+]
+},
+{
+"name": "Dual Cover",
+"material": "Atlas3_Colorable",
+"width": 0.299,
+"height": 0.442,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0024,
+0.0045
+],
+[
+0.1221,
+0.0045
+],
+[
+0.1221,
+0.1813
+],
+[
+0.0024,
+0.1813
+]
+]
+]
+},
+{
+"name": "Flathead Doublescrew",
+"material": "Atlas3_Colorable",
+"width": 0.318,
+"height": 0.313,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.374,
+0.6877
+],
+[
+0.501,
+0.6877
+],
+[
+0.501,
+0.8129
+],
+[
+0.374,
+0.8129
+]
+]
+]
+},
+{
+"name": "Hole Vent",
+"material": "Atlas3_Colorable",
+"width": 0.307,
+"height": 0.313,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.501,
+0.1252
+],
+[
+0.6239,
+0.1252
+],
+[
+0.6239,
+0.2503
+],
+[
+0.501,
+0.2503
+]
+]
+]
+},
+{
+"name": "Hole Vent 2",
+"material": "Atlas3_Colorable",
+"width": 0.274,
+"height": 0.458,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.258,
+0.0019
+],
+[
+0.3674,
+0.0019
+],
+[
+0.3674,
+0.185
+],
+[
+0.258,
+0.185
+]
+]
+]
+},
+{
+"name": "Large Screw",
+"material": "Atlas3_Colorable",
+"width": 0.303,
+"height": 0.301,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.2528,
+0.6903
+],
+[
+0.374,
+0.6903
+],
+[
+0.374,
+0.8105
+],
+[
+0.2528,
+0.8105
+]
+]
+]
+},
+{
+"name": "Long Black Inset",
+"material": "Atlas3_Colorable",
+"width": 0.156,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.4376
+],
+[
+0.0623,
+0.4376
+],
+[
+0.0623,
+0.6858
+],
+[
+0.0,
+0.6858
+]
+]
+]
+},
+{
+"name": "Long Double Inset",
+"material": "Atlas3_Colorable",
+"width": 0.141,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.8159,
+0.4376
+],
+[
+0.8723,
+0.4376
+],
+[
+0.8723,
+0.6858
+],
+[
+0.8159,
+0.6858
+]
+]
+]
+},
+{
+"name": "Long Screw Plate",
+"material": "Atlas3_Colorable",
+"width": 0.157,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.9372,
+0.8129
+],
+[
+1.0,
+0.8129
+],
+[
+1.0,
+1.0
+],
+[
+0.9372,
+1.0
+]
+]
+]
+},
+{
+"name": "Maintenance Box",
+"material": "Atlas3_Colorable",
+"width": 0.468,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.1881,
+0.2503
+],
+[
+0.3753,
+0.2503
+],
+[
+0.3753,
+0.4376
+],
+[
+0.1881,
+0.4376
+]
+]
+]
+},
+{
+"name": "Offset Inset",
+"material": "Atlas3_Colorable",
+"width": 0.292,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.38,
+0.8129
+],
+[
+0.4967,
+0.8129
+],
+[
+0.4967,
+1.0
+],
+[
+0.38,
+1.0
+]
+]
+]
+},
+{
+"name": "Panel Cover 1",
+"material": "Atlas3_Colorable",
+"width": 0.312,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3753,
+0.2503
+],
+[
+0.5002,
+0.2503
+],
+[
+0.5002,
+0.4376
+],
+[
+0.3753,
+0.4376
+]
+]
+]
+},
+{
+"name": "Panel Cover 2",
+"material": "Atlas3_Colorable",
+"width": 0.305,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.5002,
+0.2503
+],
+[
+0.622,
+0.2503
+],
+[
+0.622,
+0.4376
+],
+[
+0.5002,
+0.4376
+]
+]
+]
+},
+{
+"name": "Panel Dimple",
+"material": "Atlas3_Colorable",
+"width": 0.308,
+"height": 0.447,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.4997,
+0.8166
+],
+[
+0.6229,
+0.8166
+],
+[
+0.6229,
+0.9953
+],
+[
+0.4997,
+0.9953
+]
+]
+]
+},
+{
+"name": "Quad Cover",
+"material": "Atlas3_Colorable",
+"width": 0.258,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.7609,
+0.2503
+],
+[
+0.8642,
+0.2503
+],
+[
+0.8642,
+0.4376
+],
+[
+0.7609,
+0.4376
+]
+]
+]
+},
+{
+"name": "Robocyclops",
+"material": "Atlas3_Colorable",
+"width": 0.299,
+"height": 0.447,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.1906,
+0.8166
+],
+[
+0.3102,
+0.8166
+],
+[
+0.3102,
+0.9953
+],
+[
+0.1906,
+0.9953
+]
+]
+]
+},
+{
+"name": "Short Black Inset",
+"material": "Atlas3_Colorable",
+"width": 0.142,
+"height": 0.299,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.003,
+0.6901
+],
+[
+0.06,
+0.6901
+],
+[
+0.06,
+0.8098
+],
+[
+0.003,
+0.8098
+]
+]
+]
+},
+{
+"name": "Side Intake",
+"material": "Atlas3_Colorable",
+"width": 0.14,
+"height": 0.157,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.9441,
+0.6871
+],
+[
+1.0,
+0.6871
+],
+[
+1.0,
+0.75
+],
+[
+0.9441,
+0.75
+]
+]
+]
+},
+{
+"name": "Slider",
+"material": "Atlas3_Colorable",
+"width": 0.146,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.6263,
+0.4376
+],
+[
+0.6847,
+0.4376
+],
+[
+0.6847,
+0.6858
+],
+[
+0.6263,
+0.6858
+]
+]
+]
+},
+{
+"name": "Slim Triangular Inset",
+"material": "Atlas3_Colorable",
+"width": 0.313,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3127,
+0.4376
+],
+[
+0.3127,
+0.6858
+],
+[
+0.1875,
+0.5617
+]
+]
+]
+},
+{
+"name": "Slim Triangular Plate",
+"material": "Atlas3_Colorable",
+"width": 0.313,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0623,
+0.6858
+],
+[
+0.0623,
+0.4376
+],
+[
+0.1875,
+0.5617
+]
+]
+]
+},
+{
+"name": "Slim Vent",
+"material": "Atlas3_Colorable",
+"width": 0.301,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.6895,
+0.4376
+],
+[
+0.8101,
+0.4376
+],
+[
+0.8101,
+0.6858
+],
+[
+0.6895,
+0.6858
+]
+]
+]
+},
+{
+"name": "Slope Inset",
+"material": "Atlas3_Colorable",
+"width": 0.185,
+"height": 0.318,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.1762,
+0.6858
+],
+[
+0.25,
+0.6858
+],
+[
+0.25,
+0.8129
+],
+[
+0.1762,
+0.8129
+]
+]
+]
+},
+{
+"name": "Slope Screw",
+"material": "Atlas3_Colorable",
+"width": 0.206,
+"height": 0.299,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0835,
+0.6901
+],
+[
+0.166,
+0.6901
+],
+[
+0.166,
+0.8098
+],
+[
+0.0835,
+0.8098
+]
+]
+]
+},
+{
+"name": "Square Inset",
+"material": "Atlas3_Colorable",
+"width": 0.162,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3127,
+0.4376
+],
+[
+0.3774,
+0.4376
+],
+[
+0.3774,
+0.6858
+],
+[
+0.3127,
+0.6858
+]
+]
+]
+},
+{
+"name": "Square Vent",
+"material": "Atlas3_Colorable",
+"width": 0.61,
+"height": 0.621,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3774,
+0.4376
+],
+[
+0.6212,
+0.4376
+],
+[
+0.6212,
+0.6858
+],
+[
+0.3774,
+0.6858
+]
+]
+]
+},
+{
+"name": "Staggered Circular Inset",
+"material": "Atlas3_Colorable",
+"width": 0.437,
+"height": 0.442,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0056,
+0.8176
+],
+[
+0.1805,
+0.8176
+],
+[
+0.1805,
+0.9945
+],
+[
+0.0056,
+0.9945
+]
+]
+]
+},
+{
+"name": "Tech Panel",
+"material": "Atlas3_Colorable",
+"width": 0.329,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.622,
+0.2503
+],
+[
+0.7536,
+0.2503
+],
+[
+0.7536,
+0.4376
+],
+[
+0.622,
+0.4376
+]
+]
+]
+},
+{
+"name": "Thin Inset",
+"material": "Atlas3_Colorable",
+"width": 0.135,
+"height": 0.318,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.5668,
+0.6858
+],
+[
+0.6209,
+0.6858
+],
+[
+0.6209,
+0.8129
+],
+[
+0.5668,
+0.8129
+]
+]
+]
+},
+{
+"name": "Thin Plug Inset",
+"material": "Atlas3_Colorable",
+"width": 0.132,
+"height": 0.318,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.5051,
+0.6858
+],
+[
+0.5577,
+0.6858
+],
+[
+0.5577,
+0.8129
+],
+[
+0.5051,
+0.8129
+]
+]
+]
+},
+{
+"name": "Tiedown Handle",
+"material": "Atlas3_Colorable",
+"width": 0.332,
+"height": 0.263,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.6209,
+0.695
+],
+[
+0.7538,
+0.695
+],
+[
+0.7538,
+0.8002
+],
+[
+0.6209,
+0.8002
+]
+]
+]
+},
+{
+"name": "Trapezoidal Black Inset",
+"material": "Atlas3_Colorable",
+"width": 0.116,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3205,
+0.8129
+],
+[
+0.3667,
+0.8129
+],
+[
+0.3667,
+1.0
+],
+[
+0.3205,
+1.0
+]
+]
+]
+},
+{
+"name": "Trapezoidal Inset",
+"material": "Atlas3_Colorable",
+"width": 0.215,
+"height": 0.468,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.6473,
+0.8129
+],
+[
+0.7333,
+0.8129
+],
+[
+0.7333,
+1.0
+],
+[
+0.6473,
+1.0
+]
+]
+]
+},
+{
+"name": "Wide Triangular Inset",
+"material": "Atlas3_Colorable",
+"width": 0.626,
+"height": 0.31,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.3127,
+0.6858
+],
+[
+0.0623,
+0.6858
+],
+[
+0.1875,
+0.5617
+]
+]
+]
+},
+{
+"name": "Wide Triangular Plate",
+"material": "Atlas3_Colorable",
+"width": 0.626,
+"height": 0.31,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0623,
+0.4376
+],
+[
+0.3127,
+0.4376
+],
+[
+0.1875,
+0.5617
+]
+]
+]
+},
+{
+"name": "Wire Vent",
+"material": "Atlas3_Colorable",
+"width": 0.29,
+"height": 0.61,
+"faces": 1,
+"catalog": "Models-Atlas3",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"chrome"
+],
+"outlines": [
+[
+[
+0.8796,
+0.0037
+],
+[
+0.9958,
+0.0037
+],
+[
+0.9958,
+0.2478
+],
+[
+0.8796,
+0.2478
+]
+]
+]
+}
+]

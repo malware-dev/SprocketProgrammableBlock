@@ -1,0 +1,206 @@
+[
+{
+"name": "Panel Line Creased",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.037,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.0083
+],
+[
+1.0,
+0.0083
+],
+[
+1.0,
+0.0229
+],
+[
+0.0,
+0.0229
+]
+]
+]
+},
+{
+"name": "Panel Line Heavy Bumps",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.135,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.1925
+],
+[
+1.0,
+0.1925
+],
+[
+1.0,
+0.2465
+],
+[
+0.0,
+0.2465
+]
+]
+]
+},
+{
+"name": "Panel Line Heavy Dimples",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.135,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.255
+],
+[
+1.0,
+0.255
+],
+[
+1.0,
+0.309
+],
+[
+0.0,
+0.309
+]
+]
+]
+},
+{
+"name": "Panel Line Rubber",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.021,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.0458
+],
+[
+1.0,
+0.0458
+],
+[
+1.0,
+0.054
+],
+[
+0.0,
+0.054
+]
+]
+]
+},
+{
+"name": "Panel Line Scratched",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.038,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.0882
+],
+[
+1.0,
+0.0882
+],
+[
+1.0,
+0.1035
+],
+[
+0.0,
+0.1035
+]
+]
+]
+},
+{
+"name": "Panel Line Welded",
+"material": "PanelingColorable",
+"width": 2.5,
+"height": 0.084,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"noreskin"
+],
+"outlines": [
+[
+[
+0.0,
+0.1405
+],
+[
+1.0,
+0.1405
+],
+[
+1.0,
+0.174
+],
+[
+0.0,
+0.174
+]
+]
+]
+}
+]

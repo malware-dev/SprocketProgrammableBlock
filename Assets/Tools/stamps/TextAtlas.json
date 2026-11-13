@@ -1,0 +1,1218 @@
+[
+{
+"name": "0",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.2857,
+0.0
+],
+[
+0.4286,
+0.0
+],
+[
+0.4286,
+0.1667
+],
+[
+0.2857,
+0.1667
+]
+]
+]
+},
+{
+"name": "1",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.1667
+],
+[
+0.1429,
+0.1667
+],
+[
+0.1429,
+0.3333
+],
+[
+0.0,
+0.3333
+]
+]
+]
+},
+{
+"name": "2",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.1429,
+0.1667
+],
+[
+0.2857,
+0.1667
+],
+[
+0.2857,
+0.3333
+],
+[
+0.1429,
+0.3333
+]
+]
+]
+},
+{
+"name": "3",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.2857,
+0.1667
+],
+[
+0.4286,
+0.1667
+],
+[
+0.4286,
+0.3333
+],
+[
+0.2857,
+0.3333
+]
+]
+]
+},
+{
+"name": "4",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4286,
+0.1667
+],
+[
+0.5714,
+0.1667
+],
+[
+0.5714,
+0.3333
+],
+[
+0.4286,
+0.3333
+]
+]
+]
+},
+{
+"name": "5",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.5714,
+0.1667
+],
+[
+0.7143,
+0.1667
+],
+[
+0.7143,
+0.3333
+],
+[
+0.5714,
+0.3333
+]
+]
+]
+},
+{
+"name": "6",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.7143,
+0.1667
+],
+[
+0.8571,
+0.1667
+],
+[
+0.8571,
+0.3333
+],
+[
+0.7143,
+0.3333
+]
+]
+]
+},
+{
+"name": "7",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.8571,
+0.1667
+],
+[
+1.0,
+0.1667
+],
+[
+1.0,
+0.3333
+],
+[
+0.8571,
+0.3333
+]
+]
+]
+},
+{
+"name": "8",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.0
+],
+[
+0.1429,
+0.0
+],
+[
+0.1429,
+0.1667
+],
+[
+0.0,
+0.1667
+]
+]
+]
+},
+{
+"name": "9",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.1429,
+0.0
+],
+[
+0.2857,
+0.0
+],
+[
+0.2857,
+0.1667
+],
+[
+0.1429,
+0.1667
+]
+]
+]
+},
+{
+"name": "A",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.8333
+],
+[
+0.1429,
+0.8333
+],
+[
+0.1429,
+1.0
+],
+[
+0.0,
+1.0
+]
+]
+]
+},
+{
+"name": "B",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.1429,
+0.8333
+],
+[
+0.2857,
+0.8333
+],
+[
+0.2857,
+1.0
+],
+[
+0.1429,
+1.0
+]
+]
+]
+},
+{
+"name": "C",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.2857,
+0.8333
+],
+[
+0.4286,
+0.8333
+],
+[
+0.4286,
+1.0
+],
+[
+0.2857,
+1.0
+]
+]
+]
+},
+{
+"name": "D",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4286,
+0.8333
+],
+[
+0.5714,
+0.8333
+],
+[
+0.5714,
+1.0
+],
+[
+0.4286,
+1.0
+]
+]
+]
+},
+{
+"name": "E",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.5714,
+0.8333
+],
+[
+0.7143,
+0.8333
+],
+[
+0.7143,
+1.0
+],
+[
+0.5714,
+1.0
+]
+]
+]
+},
+{
+"name": "F",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.7143,
+0.8333
+],
+[
+0.8571,
+0.8333
+],
+[
+0.8571,
+1.0
+],
+[
+0.7143,
+1.0
+]
+]
+]
+},
+{
+"name": "G",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.8571,
+0.8333
+],
+[
+1.0,
+0.8333
+],
+[
+1.0,
+1.0
+],
+[
+0.8571,
+1.0
+]
+]
+]
+},
+{
+"name": "H",
+"material": "TextAtlas",
+"width": 0.32,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.6667
+],
+[
+0.128,
+0.6667
+],
+[
+0.128,
+0.8333
+],
+[
+0.0,
+0.8333
+]
+]
+]
+},
+{
+"name": "I",
+"material": "TextAtlas",
+"width": 0.246,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.128,
+0.6667
+],
+[
+0.2266,
+0.6667
+],
+[
+0.2266,
+0.8333
+],
+[
+0.128,
+0.8333
+]
+]
+]
+},
+{
+"name": "J",
+"material": "TextAtlas",
+"width": 0.308,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.2266,
+0.6667
+],
+[
+0.3497,
+0.6667
+],
+[
+0.3497,
+0.8333
+],
+[
+0.2266,
+0.8333
+]
+]
+]
+},
+{
+"name": "K",
+"material": "TextAtlas",
+"width": 0.346,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.3497,
+0.6667
+],
+[
+0.4883,
+0.6667
+],
+[
+0.4883,
+0.8333
+],
+[
+0.3497,
+0.8333
+]
+]
+]
+},
+{
+"name": "L",
+"material": "TextAtlas",
+"width": 0.283,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4883,
+0.6667
+],
+[
+0.6013,
+0.6667
+],
+[
+0.6013,
+0.8333
+],
+[
+0.4883,
+0.8333
+]
+]
+]
+},
+{
+"name": "M",
+"material": "TextAtlas",
+"width": 0.446,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.6013,
+0.6667
+],
+[
+0.7799,
+0.6667
+],
+[
+0.7799,
+0.8333
+],
+[
+0.6013,
+0.8333
+]
+]
+]
+},
+{
+"name": "N",
+"material": "TextAtlas",
+"width": 0.364,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.7799,
+0.6667
+],
+[
+0.9255,
+0.6667
+],
+[
+0.9255,
+0.8333
+],
+[
+0.7799,
+0.8333
+]
+]
+]
+},
+{
+"name": "O",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.5
+],
+[
+0.1429,
+0.5
+],
+[
+0.1429,
+0.6667
+],
+[
+0.0,
+0.6667
+]
+]
+]
+},
+{
+"name": "P",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.1429,
+0.5
+],
+[
+0.2857,
+0.5
+],
+[
+0.2857,
+0.6667
+],
+[
+0.1429,
+0.6667
+]
+]
+]
+},
+{
+"name": "Q",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.2857,
+0.5
+],
+[
+0.4286,
+0.5
+],
+[
+0.4286,
+0.6667
+],
+[
+0.2857,
+0.6667
+]
+]
+]
+},
+{
+"name": "R",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4286,
+0.5
+],
+[
+0.5714,
+0.5
+],
+[
+0.5714,
+0.6667
+],
+[
+0.4286,
+0.6667
+]
+]
+]
+},
+{
+"name": "S",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.5714,
+0.5
+],
+[
+0.7143,
+0.5
+],
+[
+0.7143,
+0.6667
+],
+[
+0.5714,
+0.6667
+]
+]
+]
+},
+{
+"name": "SE Man",
+"material": "TextAtlas",
+"width": 1.071,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4286,
+0.0
+],
+[
+0.8571,
+0.0
+],
+[
+0.8571,
+0.1667
+],
+[
+0.4286,
+0.1667
+]
+]
+]
+},
+{
+"name": "T",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.7143,
+0.5
+],
+[
+0.8571,
+0.5
+],
+[
+0.8571,
+0.6667
+],
+[
+0.7143,
+0.6667
+]
+]
+]
+},
+{
+"name": "U",
+"material": "TextAtlas",
+"width": 0.357,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.8571,
+0.5
+],
+[
+1.0,
+0.5
+],
+[
+1.0,
+0.6667
+],
+[
+0.8571,
+0.6667
+]
+]
+]
+},
+{
+"name": "V",
+"material": "TextAtlas",
+"width": 0.334,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.3333
+],
+[
+0.1334,
+0.3333
+],
+[
+0.1334,
+0.5
+],
+[
+0.0,
+0.5
+]
+]
+]
+},
+{
+"name": "W",
+"material": "TextAtlas",
+"width": 0.465,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.1334,
+0.3333
+],
+[
+0.3192,
+0.3333
+],
+[
+0.3192,
+0.5
+],
+[
+0.1334,
+0.5
+]
+]
+]
+},
+{
+"name": "X",
+"material": "TextAtlas",
+"width": 0.374,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.3192,
+0.3333
+],
+[
+0.4688,
+0.3333
+],
+[
+0.4688,
+0.5
+],
+[
+0.3192,
+0.5
+]
+]
+]
+},
+{
+"name": "Y",
+"material": "TextAtlas",
+"width": 0.359,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.4688,
+0.3333
+],
+[
+0.6122,
+0.3333
+],
+[
+0.6122,
+0.5
+],
+[
+0.4688,
+0.5
+]
+]
+]
+},
+{
+"name": "Z",
+"material": "TextAtlas",
+"width": 0.353,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.6122,
+0.3333
+],
+[
+0.7535,
+0.3333
+],
+[
+0.7535,
+0.5
+],
+[
+0.6122,
+0.5
+]
+]
+]
+},
+{
+"name": "x",
+"material": "TextAtlas",
+"width": 0.324,
+"height": 0.417,
+"faces": 1,
+"catalog": "Models-Text",
+"tags": [
+"text",
+"decal"
+],
+"outlines": [
+[
+[
+0.7535,
+0.3333
+],
+[
+0.8833,
+0.3333
+],
+[
+0.8833,
+0.5
+],
+[
+0.7535,
+0.5
+]
+]
+]
+}
+]

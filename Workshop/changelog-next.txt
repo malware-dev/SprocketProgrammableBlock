@@ -1,1 +1,1 @@
-New build stages: the wall block goes from a frame to its bare housing, and the inset block builds the same device in its recess while the cube's walls go up around it.
+Fixed the keyboard tray's screen staying black: whatever a script or text puts on the keyboard surface now shows on the tray.

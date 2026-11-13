@@ -1,0 +1,218 @@
+[
+{
+"name": "Line Cogwheel Rail",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.213,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.0159
+],
+[
+1.0,
+0.0159
+],
+[
+1.0,
+0.101
+],
+[
+0.0,
+0.101
+]
+]
+]
+},
+{
+"name": "Line Creased",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.085,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.483
+],
+[
+1.0,
+0.483
+],
+[
+1.0,
+0.5172
+],
+[
+0.0,
+0.5172
+]
+]
+]
+},
+{
+"name": "Line Thick",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.254,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.5683
+],
+[
+1.0,
+0.5683
+],
+[
+1.0,
+0.6698
+],
+[
+0.0,
+0.6698
+]
+]
+]
+},
+{
+"name": "Line Thick Dotted",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.452,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.1234
+],
+[
+1.0,
+0.1234
+],
+[
+1.0,
+0.3042
+],
+[
+0.0,
+0.3042
+]
+]
+]
+},
+{
+"name": "Line Thick Rail",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.3356
+],
+[
+1.0,
+0.3356
+],
+[
+1.0,
+0.436
+],
+[
+0.0,
+0.436
+]
+]
+]
+},
+{
+"name": "Line Trapezoidal Insets",
+"material": "Atlas4_Colorable",
+"width": 2.5,
+"height": 0.195,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable",
+"darker",
+"verydark",
+"yellow",
+"chrome"
+],
+"outlines": [
+[
+[
+0.0,
+0.6947
+],
+[
+1.0,
+0.6947
+],
+[
+1.0,
+0.7729
+],
+[
+0.0,
+0.7729
+]
+]
+]
+}
+]

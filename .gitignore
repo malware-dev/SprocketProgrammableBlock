@@ -63,9 +63,16 @@ mdk.local.ini
 ## Python
 __pycache__/
 
-## Assets: the blend holds the models, LODs and build stages; the scripts that made them stay local.
+## Assets: the blend holds the models, LODs and build stages, and the scripts that build them are kept so anyone can
+## build them again. What the scripts make (blends, logs, exports, renders) stays out.
 /Assets/*
 !/Assets/SprocketProgrammableBlock.blend
 !/Assets/Design/
 !/Assets/Textures/
+!/Assets/Tools/
+!/Assets/build_models.py
+!/Assets/make_logo.py
+!/Assets/Stages/
+/Assets/Stages/*
+!/Assets/Stages/stages.txt
 *.blend1

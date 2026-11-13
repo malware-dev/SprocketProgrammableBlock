@@ -1,0 +1,70 @@
+# Build stages and LODs for the Sprocket Automation Programmable Block, by the se-block-stages skill. LODs at 8, 25
+# and 45 m, after Keen's refill station.
+#
+# Mal, 2026-11-11, on the first version (frame, closed form, the finished shape in construction metal): the frame was
+# right, but the stages after it barely differed. The wall variant takes two stages: its frame, then its bare housing.
+# The inset builds the wall variant in its well, stage for stage (Mal's design): the wall's BS1 while the cube has its
+# bottom, back and right walls, the wall's BS2 once the cube is closed.
+#
+# Screens, the glass, the logo panel, the status line, the power button and the tray come only with the finished
+# block. The overlay (seams, stamps) is in no stage: in the Construction material a decal shows as a solid quad.
+
+scene SprocketProgrammableBlock
+lods 8 25 45
+
+[BS1] A frame outlining the device, its back on the wall where it mounts
+cage 0.06
+
+[BS2] The housing on its mounting plate, still without its screen glass and logo panel
+Shell
+
+scene SprocketProgrammableBlockInset
+lods 8 25 45
+
+# The well's mouth is x -0.63 to 0.63, z -0.304 to 0.789 (measured on Cube.001); the loop frames it, flush with the
+# cage's front members (y -1.25 to -1.19), and two members tie its sides to the cage's posts.
+[BS1] A frame on every edge of the cube, the well's mouth framed in its front and tied to the posts
+cage 0.06
+loop y -1.22 0.06 0.69 -0.364 0.69 0.849 -0.69 0.849 -0.69 -0.364
+box 0.69 -1.25 0.21  1.19 -1.19 0.27
+box -1.19 -1.25 0.21  -0.69 -1.19 0.27
+
+# The walls sit inside the cage's members, 6 cm thick, flush with its outer faces. The device's frame is the wall
+# variant's BS1 (its cage 0.06 round the device, x -0.6 to 0.6, y -1.24 to -1.021, z -0.274 to 0.759) written out as
+# members, held to the mouth's loop by three brackets.
+[BS2] The bottom, back and right walls on the frame, and the device's frame in the well
+cage 0.06
+loop y -1.22 0.06 0.69 -0.364 0.69 0.849 -0.69 0.849 -0.69 -0.364
+box 0.69 -1.25 0.21  1.19 -1.19 0.27
+box -1.19 -1.25 0.21  -0.69 -1.19 0.27
+box -1.19 1.19 -1.19  1.19 1.25 1.19
+box -1.19 -1.19 -1.25  1.19 1.19 -1.19
+box 1.19 -1.19 -1.19  1.25 1.19 1.19
+box -0.6 -1.24 -0.274  -0.54 -1.18 0.759
+box 0.54 -1.24 -0.274  0.6 -1.18 0.759
+box -0.6 -1.081 -0.274  -0.54 -1.021 0.759
+box 0.54 -1.081 -0.274  0.6 -1.021 0.759
+box -0.54 -1.24 -0.274  0.54 -1.18 -0.214
+box -0.54 -1.081 -0.274  0.54 -1.021 -0.214
+box -0.54 -1.24 0.699  0.54 -1.18 0.759
+box -0.54 -1.081 0.699  0.54 -1.021 0.759
+box -0.6 -1.18 -0.274  -0.54 -1.081 -0.214
+box 0.54 -1.18 -0.274  0.6 -1.081 -0.214
+box -0.6 -1.18 0.699  -0.54 -1.081 0.759
+box 0.54 -1.18 0.699  0.6 -1.081 0.759
+strut -0.57 -1.21 -0.244  0.57 -1.051 -0.244 0.045
+strut 0.57 -1.21 -0.244  0.0223 -1.1336 -0.244 0.045
+strut -0.57 -1.051 -0.244  -0.0223 -1.1274 -0.244 0.045
+strut 0.57 -1.21 0.24  0.66 -1.22 0.24 0.03
+strut -0.57 -1.21 0.24  -0.66 -1.22 0.24 0.03
+strut 0 -1.21 0.729  0 -1.22 0.819 0.03
+
+[BS3] The cube closed round the device's bare housing, the wall variant's BS2 in the well
+Cube.001
+Shell.001
+
+scene SprocketProgrammableBlock_Tray
+lods 8 25 45
+
+scene SprocketProgrammableBlock_TrayKeys
+lods 8 25 45

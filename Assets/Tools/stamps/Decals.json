@@ -1,0 +1,343 @@
+[
+{
+"name": "bolt",
+"material": "Decals",
+"width": 0.064,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.3116,
+1.0
+],
+[
+0.3116,
+0.967
+],
+[
+0.3438,
+0.967
+],
+[
+0.3438,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.001",
+"material": "Decals",
+"width": 0.062,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.967
+],
+[
+0.0312,
+0.967
+],
+[
+0.0312,
+1.0
+],
+[
+0.0,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.002",
+"material": "Decals",
+"width": 0.062,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0312,
+1.0
+],
+[
+0.0312,
+0.967
+],
+[
+0.0621,
+0.967
+],
+[
+0.0621,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.003",
+"material": "Decals",
+"width": 0.063,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0621,
+1.0
+],
+[
+0.0621,
+0.967
+],
+[
+0.0935,
+0.967
+],
+[
+0.0935,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.004",
+"material": "Decals",
+"width": 0.063,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0935,
+1.0
+],
+[
+0.0935,
+0.967
+],
+[
+0.1249,
+0.967
+],
+[
+0.1249,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.005",
+"material": "Decals",
+"width": 0.063,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1249,
+1.0
+],
+[
+0.1249,
+0.967
+],
+[
+0.1562,
+0.967
+],
+[
+0.1562,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.006",
+"material": "Decals",
+"width": 0.065,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1562,
+1.0
+],
+[
+0.1562,
+0.967
+],
+[
+0.1886,
+0.967
+],
+[
+0.1886,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.007",
+"material": "Decals",
+"width": 0.06,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1886,
+1.0
+],
+[
+0.1886,
+0.967
+],
+[
+0.2186,
+0.967
+],
+[
+0.2186,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.008",
+"material": "Decals",
+"width": 0.059,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2186,
+1.0
+],
+[
+0.2186,
+0.967
+],
+[
+0.2481,
+0.967
+],
+[
+0.2481,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.009",
+"material": "Decals",
+"width": 0.068,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2481,
+1.0
+],
+[
+0.2481,
+0.967
+],
+[
+0.2822,
+0.967
+],
+[
+0.2822,
+1.0
+]
+]
+]
+},
+{
+"name": "bolt.010",
+"material": "Decals",
+"width": 0.059,
+"height": 0.066,
+"faces": 1,
+"catalog": "Models",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2822,
+1.0
+],
+[
+0.2822,
+0.967
+],
+[
+0.3116,
+0.967
+],
+[
+0.3116,
+1.0
+]
+]
+]
+}
+]

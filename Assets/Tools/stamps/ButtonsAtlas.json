@@ -1,0 +1,1288 @@
+[
+{
+"name": "Big Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.223,
+"height": 0.239,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.8812,
+0.5024
+],
+[
+0.9929,
+0.5024
+],
+[
+0.9929,
+0.6219
+],
+[
+0.8812,
+0.6219
+]
+]
+]
+},
+{
+"name": "Big Plug Reinforced",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.246,
+"height": 0.246,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.8756,
+0.3769
+],
+[
+0.9988,
+0.3769
+],
+[
+0.9988,
+0.5
+],
+[
+0.8756,
+0.5
+]
+]
+]
+},
+{
+"name": "Big Round Silver Button",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.25,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.75,
+0.8743
+],
+[
+0.875,
+0.8743
+],
+[
+0.875,
+1.0
+],
+[
+0.75,
+1.0
+],
+[
+0.75,
+0.9372
+]
+]
+]
+},
+{
+"name": "Big Round Yellow Button",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.25,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.875,
+0.8743
+],
+[
+1.0,
+0.8743
+],
+[
+1.0,
+1.0
+],
+[
+0.875,
+1.0
+]
+]
+]
+},
+{
+"name": "Big Square Silver Button",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.25,
+"height": 0.246,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.75,
+0.7515
+],
+[
+0.875,
+0.7515
+],
+[
+0.875,
+0.8743
+],
+[
+0.75,
+0.8743
+]
+]
+]
+},
+{
+"name": "Big Square Yellow Button",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.25,
+"height": 0.246,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.875,
+0.7515
+],
+[
+1.0,
+0.7515
+],
+[
+1.0,
+0.8743
+],
+[
+0.875,
+0.8743
+]
+]
+]
+},
+{
+"name": "Button Emergency Stop",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.234,
+"height": 0.234,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.2535,
+0.4999
+],
+[
+0.3707,
+0.4999
+],
+[
+0.3707,
+0.617
+],
+[
+0.2535,
+0.617
+]
+]
+]
+},
+{
+"name": "Button Panel",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.245,
+"height": 0.497,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1236,
+0.6256
+],
+[
+0.1236,
+0.8743
+],
+[
+0.0011,
+0.8743
+],
+[
+0.0011,
+0.6256
+]
+]
+]
+},
+{
+"name": "Button Panel 2",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.375,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.5,
+0.8743
+],
+[
+0.5625,
+0.8743
+],
+[
+0.625,
+0.8743
+],
+[
+0.6875,
+0.8743
+],
+[
+0.6875,
+0.9372
+],
+[
+0.6875,
+1.0
+],
+[
+0.5,
+1.0
+]
+]
+]
+},
+{
+"name": "Button Status Panel",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.497,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.2517,
+0.8743
+],
+[
+0.5,
+0.8743
+],
+[
+0.5,
+1.0
+],
+[
+0.2517,
+1.0
+]
+]
+]
+},
+{
+"name": "Combined Panel",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.497,
+"height": 0.501,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.2517,
+0.624
+],
+[
+0.5,
+0.624
+],
+[
+0.5,
+0.7515
+],
+[
+0.5,
+0.8743
+],
+[
+0.2517,
+0.8743
+],
+[
+0.2517,
+0.7515
+],
+[
+0.2517,
+0.6877
+]
+]
+]
+},
+{
+"name": "Half Circle Blue Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.163,
+"height": 0.146,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.7923,
+0.5457
+],
+[
+0.8738,
+0.5457
+],
+[
+0.8738,
+0.6188
+],
+[
+0.7923,
+0.6188
+]
+]
+]
+},
+{
+"name": "Half Circle Red Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.162,
+"height": 0.146,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.7059,
+0.5457
+],
+[
+0.7868,
+0.5457
+],
+[
+0.7868,
+0.6188
+],
+[
+0.7059,
+0.6188
+]
+]
+]
+},
+{
+"name": "Half Circle White Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.163,
+"height": 0.146,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.5306,
+0.5457
+],
+[
+0.6123,
+0.5457
+],
+[
+0.6123,
+0.6188
+],
+[
+0.5306,
+0.6188
+]
+]
+]
+},
+{
+"name": "Half Circle Yellow Green Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.163,
+"height": 0.146,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6189,
+0.5457
+],
+[
+0.7006,
+0.5457
+],
+[
+0.7006,
+0.6188
+],
+[
+0.6189,
+0.6188
+]
+]
+]
+},
+{
+"name": "Knob Dial",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.135,
+"height": 0.151,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.5,
+0.6795
+],
+[
+0.5675,
+0.6795
+],
+[
+0.5675,
+0.755
+],
+[
+0.5,
+0.755
+]
+]
+]
+},
+{
+"name": "Knob Panel",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.5,
+"height": 0.251,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.0,
+0.8743
+],
+[
+0.2498,
+0.8743
+],
+[
+0.2498,
+1.0
+],
+[
+0.0,
+1.0
+]
+]
+]
+},
+{
+"name": "Knob Round",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.127,
+"height": 0.126,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.5671,
+0.6869
+],
+[
+0.6306,
+0.6869
+],
+[
+0.6306,
+0.75
+],
+[
+0.5671,
+0.75
+]
+]
+]
+},
+{
+"name": "Knob Single",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.126,
+"height": 0.152,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.7587,
+0.75
+],
+[
+0.6956,
+0.75
+],
+[
+0.6956,
+0.6799
+],
+[
+0.7034,
+0.6739
+],
+[
+0.7587,
+0.6739
+]
+]
+]
+},
+{
+"name": "Metal Button",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.124,
+"height": 0.126,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6319,
+0.6869
+],
+[
+0.694,
+0.6869
+],
+[
+0.694,
+0.75
+],
+[
+0.6319,
+0.75
+]
+]
+]
+},
+{
+"name": "Plug Blue",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.124,
+"height": 0.125,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1876,
+0.6877
+],
+[
+0.2497,
+0.6877
+],
+[
+0.2497,
+0.7502
+],
+[
+0.1876,
+0.7502
+]
+]
+]
+},
+{
+"name": "Plug Green",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.124,
+"height": 0.126,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1876,
+0.6249
+],
+[
+0.2497,
+0.6249
+],
+[
+0.2497,
+0.6877
+],
+[
+0.1876,
+0.6877
+]
+]
+]
+},
+{
+"name": "Plug Red",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.125,
+"height": 0.126,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1252,
+0.6249
+],
+[
+0.1876,
+0.6249
+],
+[
+0.1876,
+0.6877
+],
+[
+0.1252,
+0.6877
+]
+]
+]
+},
+{
+"name": "Plug White",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.125,
+"height": 0.125,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1252,
+0.6877
+],
+[
+0.1876,
+0.6877
+],
+[
+0.1876,
+0.7502
+],
+[
+0.1252,
+0.7502
+]
+]
+]
+},
+{
+"name": "RCA Plug Red",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.208,
+"height": 0.209,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.768,
+0.6352
+],
+[
+0.8717,
+0.6352
+],
+[
+0.8717,
+0.7397
+],
+[
+0.768,
+0.7397
+]
+]
+]
+},
+{
+"name": "Square Button Off",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.137,
+"height": 0.138,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.3818,
+0.5499
+],
+[
+0.4505,
+0.5499
+],
+[
+0.4505,
+0.6188
+],
+[
+0.3818,
+0.6188
+]
+]
+]
+},
+{
+"name": "Square Button On",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.137,
+"height": 0.138,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.4553,
+0.5499
+],
+[
+0.5239,
+0.5499
+],
+[
+0.5239,
+0.6188
+],
+[
+0.4553,
+0.6188
+]
+]
+]
+},
+{
+"name": "Status Light Off",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.095,
+"height": 0.097,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6948,
+0.9352
+],
+[
+0.6948,
+0.8868
+],
+[
+0.7423,
+0.8868
+],
+[
+0.7423,
+0.9352
+]
+]
+]
+},
+{
+"name": "Status Light On",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.095,
+"height": 0.097,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6948,
+0.9885
+],
+[
+0.6948,
+0.94
+],
+[
+0.7423,
+0.94
+],
+[
+0.7423,
+0.9885
+]
+]
+]
+},
+{
+"name": "Switch Off",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.166,
+"height": 0.101,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.5193,
+0.6285
+],
+[
+0.6022,
+0.6285
+],
+[
+0.6022,
+0.6791
+],
+[
+0.5193,
+0.6791
+]
+]
+]
+},
+{
+"name": "Switch On",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.169,
+"height": 0.101,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6179,
+0.6285
+],
+[
+0.7022,
+0.6285
+],
+[
+0.7022,
+0.6791
+],
+[
+0.6179,
+0.6791
+]
+]
+]
+},
+{
+"name": "Toggle Switch Blue",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.112,
+"height": 0.223,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6875,
+0.7569
+],
+[
+0.7433,
+0.7569
+],
+[
+0.7433,
+0.8682
+],
+[
+0.6875,
+0.8682
+]
+]
+]
+},
+{
+"name": "Toggle Switch Green",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.112,
+"height": 0.224,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.567,
+0.7566
+],
+[
+0.6228,
+0.7566
+],
+[
+0.6228,
+0.8686
+],
+[
+0.567,
+0.8686
+]
+]
+]
+},
+{
+"name": "Toggle Switch Off",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.128,
+"height": 0.214,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1236,
+0.7589
+],
+[
+0.1875,
+0.7589
+],
+[
+0.1875,
+0.8661
+],
+[
+0.1236,
+0.8661
+]
+]
+]
+},
+{
+"name": "Toggle Switch On",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.128,
+"height": 0.214,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.1872,
+0.7589
+],
+[
+0.2517,
+0.7589
+],
+[
+0.2517,
+0.8661
+],
+[
+0.1872,
+0.8661
+]
+]
+]
+},
+{
+"name": "Toggle Switch Red",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.111,
+"height": 0.223,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.507,
+0.7569
+],
+[
+0.5625,
+0.7569
+],
+[
+0.5625,
+0.8682
+],
+[
+0.507,
+0.8682
+]
+]
+]
+},
+{
+"name": "Toggle Switch Yellow",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.112,
+"height": 0.223,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.6272,
+0.7569
+],
+[
+0.683,
+0.7569
+],
+[
+0.683,
+0.8682
+],
+[
+0.6272,
+0.8682
+]
+]
+]
+},
+{
+"name": "XLR Plug",
+"material": "ButtonsAtlas_Colorable",
+"width": 0.208,
+"height": 0.213,
+"faces": 1,
+"catalog": "Models-Buttons",
+"tags": [
+"decal",
+"colorable",
+"darker"
+],
+"outlines": [
+[
+[
+0.8846,
+0.6352
+],
+[
+0.9885,
+0.6352
+],
+[
+0.9885,
+0.742
+],
+[
+0.8846,
+0.742
+]
+]
+]
+}
+]

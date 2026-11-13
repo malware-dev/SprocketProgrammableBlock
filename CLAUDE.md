@@ -12,7 +12,10 @@ Sprocket.
 - `SprocketProgrammableBlock.slnx` is the solution.
 - `Directory.Build.props` is the same as the other mods'. `.gitignore` is too, plus an Assets rule: the repository
   keeps `Assets/SprocketProgrammableBlock.blend` (the finished model with every LOD and build stage), `Assets/Textures`
-  (the sources its own materials load) and `Assets/Design`. The scripts that build the models stay local, by Mal's rule.
+  (the sources its own materials load) and `Assets/Design`. The mod carries Mal's AI-made models card, so the repository
+  also keeps what builds the models from any machine (Mal, 2026-11-12): `build_models.py`, `make_logo.py`,
+  `Stages/stages.txt` and `Assets/Tools`, copies of the skills' `se_stamps.py` (with its stamp data) and
+  `derive_stages.py` as the models were built with. Their outputs stay local. README.md says how to build.
 - `Assets/Design/` holds the agreed design: `mockup.png`, drawn from `mockup.html`, and the logo's icon `icon.svg`.
 - **License:** plain MIT, Mal's choice for this mod (2026-11-07), the same file as LCD Corridors'.
 
@@ -80,7 +83,7 @@ Through sprocket-main and in the HoverRepulsors session, where the first models 
 Finished, and seen in the game: both variants, their tray, keyboard, screens, outline, LODs and build stages. Deployed
 to `E:\Data\sesaves\Mods` (the `output` in `mdk.local.ini`); Mal decides each deploy.
 
-How it is made (the scripts are local only):
+How it is made (the model scripts are in the repository, the others local):
 
 - `Assets/build_models.py` builds the wall variant (`SprocketProgrammableBlock`), the inset
   (`SprocketProgrammableBlockInset`), the shared tray (`SprocketProgrammableBlock_Tray`, dummy `subpart_Keyboard` at the
@@ -114,11 +117,14 @@ How it is made (the scripts are local only):
 
 Learned in the game:
 
-- **The tray and its keyboard.** Content set on surface 1 reaches the tray (the renderer passes `ChangeMaterialTexture`
-  on to subparts), but the game's hiding of an empty screen does not, and `MyRenderProxy` is forbidden to mods. So the
-  keyboard's screen quad is a subpart of the tray's own (`SprocketProgrammableBlock_TrayKeys`, dummy
-  `subpart_KeysScreen`), and `KeysScreen.cs` hides it while the block works with no content. A block's text surfaces
-  exist only after its game logic's `Init`, so they are looked up on first use.
+- **The tray and its keyboard.** A screen on a subpart stays black (Mal saw it in the game, 2026-11-12): the game gives
+  a surface's drawn texture to the block's own render objects only, and neither it nor its hiding of an empty screen
+  reaches subparts. `MyRenderProxy` is forbidden to mods. So the keyboard's screen quad is a subpart of the tray's own
+  (`SprocketProgrammableBlock_TrayKeys`, dummy `subpart_KeysScreen`), and `KeysScreen.cs` gives it the texture through
+  its render component's `UpdateRenderTextureChanges`, the way the game passes a skin to subparts (after Elevator's
+  `CabScreen.cs`), and hides it while the block works with no content. It binds again when the subpart is remade or a
+  skin replaces its changes. A block's text surfaces exist only after its game logic's `Init`, so they are looked up
+  on first use.
 - **The variant group.** Mal will not redefine Keen's `ProgrammableBlockGroup` (a mod's definition replaces it whole).
   `ProgrammableBlockVariants.cs` appends the mod's blocks to the loaded group at `LoadData` and reruns its
   `Postprocess()`; the whitelist allows it, and the block shows as a variant of Keen's.
@@ -161,9 +167,10 @@ differed. Wall, two stages at 0.50/1.00: its frame, then its bare housing (no gl
 the bottom, back and right walls with the wall's BS1 in the well; the closed cube with the wall's BS2 in the well.
 The overlay is in no stage (a decal in Construction paint is a solid quad). The derived models replace build_models.py's,
 so after any model change: run build_models.py, copy its blend to `Assets/Stages/SprocketPB.blend`, run
-`derive_stages.py` windowed on it with `--stages Assets/Stages/stages.txt --out Assets/Stages/out`, then copy
-`Assets/Stages/out/Content/Models/Cubes/large/*.mwm` into the mod. Use the skill's script as of 2026-11-07 13:40 or
-later: Hover Repulsors fixed its `lods` lines and its flattening of an inset cube's well in the LODs.
+`Assets/Tools/derive_stages.py` windowed on it with `--stages Assets/Stages/stages.txt --out Assets/Stages/out`, then
+copy `Assets/Stages/out/Content/Models/Cubes/large/*.mwm` into the mod. On 2026-11-12 a rebuild from the repository's
+copies matched the shipped models byte for byte, but for SEUT's 16-byte export stamp. If the skill's script is improved,
+copy it into `Assets/Tools` again, rather than running the skill's own, so the repository still builds what ships.
 
 ## Changing the model
 

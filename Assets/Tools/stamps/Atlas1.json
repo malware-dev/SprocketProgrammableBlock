@@ -1,0 +1,354 @@
+[
+{
+"name": "Alternating Dimples",
+"material": "Atlas1",
+"width": 0.688,
+"height": 0.205,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.2765,
+0.6293
+],
+[
+0.2765,
+0.7112
+],
+[
+0.0015,
+0.7112
+],
+[
+0.0015,
+0.6293
+]
+]
+]
+},
+{
+"name": "Corrugated Embed",
+"material": "Atlas1",
+"width": 0.791,
+"height": 0.443,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.9968,
+0.8071
+],
+[
+0.9968,
+0.9843
+],
+[
+0.6805,
+0.9843
+],
+[
+0.6805,
+0.8071
+]
+]
+]
+},
+{
+"name": "Corrugated Emboss Carved",
+"material": "Atlas1",
+"width": 0.562,
+"height": 0.437,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.7138,
+0.6148
+],
+[
+0.7138,
+0.7895
+],
+[
+0.4889,
+0.7895
+],
+[
+0.4889,
+0.6148
+]
+]
+]
+},
+{
+"name": "Corrugated Emboss Long",
+"material": "Atlas1",
+"width": 0.183,
+"height": 0.959,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.4755,
+0.6125
+],
+[
+0.4755,
+0.996
+],
+[
+0.4024,
+0.996
+],
+[
+0.4024,
+0.6125
+]
+]
+]
+},
+{
+"name": "Cross Emboss",
+"material": "Atlas1",
+"width": 0.611,
+"height": 0.608,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.9988,
+0.7472
+],
+[
+0.7544,
+0.7472
+],
+[
+0.7544,
+0.5039
+],
+[
+0.9988,
+0.5039
+]
+]
+]
+},
+{
+"name": "Line Set",
+"material": "Atlas1",
+"width": 0.224,
+"height": 0.552,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.3883,
+0.6156
+],
+[
+0.3883,
+0.8363
+],
+[
+0.2987,
+0.8363
+],
+[
+0.2987,
+0.6156
+]
+]
+]
+},
+{
+"name": "Panel Line Rubber Dark",
+"material": "Atlas1",
+"width": 2.5,
+"height": 0.038,
+"faces": 1,
+"catalog": "Models-Lines",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.0,
+0.0325
+],
+[
+1.0,
+0.0325
+],
+[
+1.0,
+0.0476
+],
+[
+0.0,
+0.0476
+]
+]
+]
+},
+{
+"name": "Quintuple Dimples",
+"material": "Atlas1",
+"width": 0.374,
+"height": 0.376,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.5205,
+0.8202
+],
+[
+0.6699,
+0.8202
+],
+[
+0.6699,
+0.9705
+],
+[
+0.5205,
+0.9705
+]
+]
+]
+},
+{
+"name": "Round Cap",
+"material": "Atlas1",
+"width": 0.315,
+"height": 0.303,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.4202,
+0.1871
+],
+[
+0.5464,
+0.1871
+],
+[
+0.5464,
+0.3084
+],
+[
+0.4202,
+0.3084
+]
+]
+]
+},
+{
+"name": "Round Inset",
+"material": "Atlas1",
+"width": 0.122,
+"height": 0.121,
+"faces": 1,
+"catalog": "",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.4209,
+0.4247
+],
+[
+0.4697,
+0.4247
+],
+[
+0.4697,
+0.4733
+],
+[
+0.4209,
+0.4733
+]
+]
+]
+},
+{
+"name": "Warning Stripes",
+"material": "Atlas1",
+"width": 1.773,
+"height": 0.202,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal",
+"colorable"
+],
+"outlines": [
+[
+[
+0.0,
+0.519
+],
+[
+0.709,
+0.519
+],
+[
+0.709,
+0.5998
+],
+[
+0.0,
+0.5998
+]
+]
+]
+}
+]

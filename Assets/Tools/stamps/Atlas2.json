@@ -1,0 +1,1591 @@
+[
+{
+"name": "Sign Ammunition",
+"material": "Atlas2",
+"width": 0.605,
+"height": 0.293,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1646,
+0.2865
+],
+[
+0.4064,
+0.2865
+],
+[
+0.4064,
+0.4038
+],
+[
+0.1646,
+0.4038
+]
+]
+]
+},
+{
+"name": "Sign Arrow",
+"material": "Atlas2",
+"width": 0.125,
+"height": 0.195,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8803,
+0.8978
+],
+[
+0.9304,
+0.8978
+],
+[
+0.9304,
+0.9757
+],
+[
+0.8803,
+0.9757
+]
+]
+]
+},
+{
+"name": "Sign Battery",
+"material": "Atlas2",
+"width": 0.151,
+"height": 0.149,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.6874,
+0.6221
+],
+[
+0.7477,
+0.6221
+],
+[
+0.7477,
+0.6818
+],
+[
+0.6874,
+0.6818
+]
+]
+]
+},
+{
+"name": "Sign Battery Box",
+"material": "Atlas2",
+"width": 0.552,
+"height": 0.29,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2832,
+0.4219
+],
+[
+0.504,
+0.4219
+],
+[
+0.504,
+0.5379
+],
+[
+0.2832,
+0.5379
+]
+]
+]
+},
+{
+"name": "Sign Block",
+"material": "Atlas2",
+"width": 0.144,
+"height": 0.16,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.9359,
+0.6074
+],
+[
+0.9936,
+0.6074
+],
+[
+0.9936,
+0.6713
+],
+[
+0.9359,
+0.6713
+]
+]
+]
+},
+{
+"name": "Sign Broadcast",
+"material": "Atlas2",
+"width": 0.121,
+"height": 0.098,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.9458,
+0.6778
+],
+[
+0.9943,
+0.6778
+],
+[
+0.9943,
+0.7169
+],
+[
+0.9458,
+0.7168
+]
+]
+]
+},
+{
+"name": "Sign Bullet",
+"material": "Atlas2",
+"width": 0.097,
+"height": 0.326,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.4177,
+0.2833
+],
+[
+0.4566,
+0.2833
+],
+[
+0.4566,
+0.4138
+],
+[
+0.4177,
+0.4138
+]
+]
+]
+},
+{
+"name": "Sign Circle Graph",
+"material": "Atlas2",
+"width": 0.212,
+"height": 0.21,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.6836,
+0.5232
+],
+[
+0.6836,
+0.6074
+],
+[
+0.5986,
+0.6074
+],
+[
+0.5986,
+0.5232
+]
+]
+]
+},
+{
+"name": "Sign Compressed Oxygen",
+"material": "Atlas2",
+"width": 0.652,
+"height": 0.333,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0081,
+0.4138
+],
+[
+0.2689,
+0.4138
+],
+[
+0.2689,
+0.5469
+],
+[
+0.0081,
+0.5469
+]
+]
+]
+},
+{
+"name": "Sign Do Not Open",
+"material": "Atlas2",
+"width": 0.708,
+"height": 0.177,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5239,
+0.4315
+],
+[
+0.8073,
+0.4315
+],
+[
+0.8073,
+0.5022
+],
+[
+0.5239,
+0.5022
+]
+]
+]
+},
+{
+"name": "Sign Double Arrows",
+"material": "Atlas2",
+"width": 0.212,
+"height": 0.17,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.76,
+0.608
+],
+[
+0.8448,
+0.608
+],
+[
+0.8448,
+0.6761
+],
+[
+0.76,
+0.6761
+]
+]
+]
+},
+{
+"name": "Sign Down",
+"material": "Atlas2",
+"width": 0.422,
+"height": 0.098,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2432,
+0.8273
+],
+[
+0.4122,
+0.8273
+],
+[
+0.4122,
+0.8663
+],
+[
+0.2432,
+0.8663
+]
+]
+]
+},
+{
+"name": "Sign Energy Source",
+"material": "Atlas2",
+"width": 0.363,
+"height": 0.201,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.9993,
+0.5207
+],
+[
+0.9993,
+0.6011
+],
+[
+0.8539,
+0.6011
+],
+[
+0.8539,
+0.5207
+]
+]
+]
+},
+{
+"name": "Sign Explosive Hazard",
+"material": "Atlas2",
+"width": 0.421,
+"height": 0.426,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.822,
+0.7649
+],
+[
+0.9052,
+0.68
+],
+[
+0.9905,
+0.7649
+],
+[
+0.9052,
+0.8505
+]
+]
+]
+},
+{
+"name": "Sign File",
+"material": "Atlas2",
+"width": 0.162,
+"height": 0.163,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8619,
+0.6074
+],
+[
+0.9268,
+0.6074
+],
+[
+0.9268,
+0.6726
+],
+[
+0.8619,
+0.6726
+]
+]
+]
+},
+{
+"name": "Sign Fire Hazard",
+"material": "Atlas2",
+"width": 0.35,
+"height": 0.308,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2488,
+0.6897
+],
+[
+0.3888,
+0.6897
+],
+[
+0.3888,
+0.8128
+],
+[
+0.2488,
+0.8128
+]
+]
+]
+},
+{
+"name": "Sign Flat Arrow",
+"material": "Atlas2",
+"width": 0.102,
+"height": 0.187,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.9519,
+0.4393
+],
+[
+0.9928,
+0.4393
+],
+[
+0.9928,
+0.5139
+],
+[
+0.9519,
+0.5139
+]
+]
+]
+},
+{
+"name": "Sign Focused X",
+"material": "Atlas2",
+"width": 0.123,
+"height": 0.164,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8225,
+0.4482
+],
+[
+0.8719,
+0.4482
+],
+[
+0.8719,
+0.5139
+],
+[
+0.8225,
+0.5139
+]
+]
+]
+},
+{
+"name": "Sign Half Cube",
+"material": "Atlas2",
+"width": 0.161,
+"height": 0.162,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.7653,
+0.5288
+],
+[
+0.7653,
+0.5935
+],
+[
+0.701,
+0.5935
+],
+[
+0.701,
+0.5288
+]
+]
+]
+},
+{
+"name": "Sign Health",
+"material": "Atlas2",
+"width": 0.318,
+"height": 0.314,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.8719
+],
+[
+0.1271,
+0.8719
+],
+[
+0.1271,
+0.9974
+],
+[
+0.0,
+0.9974
+]
+]
+]
+},
+{
+"name": "Sign High Pressure",
+"material": "Atlas2",
+"width": 0.52,
+"height": 0.308,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5994,
+0.6897
+],
+[
+0.8073,
+0.6897
+],
+[
+0.8073,
+0.8128
+],
+[
+0.5994,
+0.8128
+]
+]
+]
+},
+{
+"name": "Sign High Voltage",
+"material": "Atlas2",
+"width": 0.238,
+"height": 0.135,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5002,
+0.8178
+],
+[
+0.5955,
+0.8178
+],
+[
+0.5955,
+0.8719
+],
+[
+0.5002,
+0.8719
+]
+]
+]
+},
+{
+"name": "Sign Label",
+"material": "Atlas2",
+"width": 0.411,
+"height": 0.502,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.2131
+],
+[
+0.1646,
+0.2131
+],
+[
+0.1646,
+0.4138
+],
+[
+0.0,
+0.4138
+]
+]
+]
+},
+{
+"name": "Sign Left",
+"material": "Atlas2",
+"width": 0.277,
+"height": 0.098,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1217,
+0.8256
+],
+[
+0.2324,
+0.8256
+],
+[
+0.2324,
+0.8648
+],
+[
+0.1217,
+0.8648
+]
+]
+]
+},
+{
+"name": "Sign Magnetic Field",
+"material": "Atlas2",
+"width": 0.562,
+"height": 0.314,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.6871
+],
+[
+0.225,
+0.6871
+],
+[
+0.225,
+0.8128
+],
+[
+0.0,
+0.8128
+]
+]
+]
+},
+{
+"name": "Sign Medical Kit",
+"material": "Atlas2",
+"width": 0.188,
+"height": 0.099,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0237,
+0.8149
+],
+[
+0.0989,
+0.8149
+],
+[
+0.0989,
+0.8545
+],
+[
+0.0237,
+0.8545
+]
+]
+]
+},
+{
+"name": "Sign Moving Parts",
+"material": "Atlas2",
+"width": 0.433,
+"height": 0.308,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.4135,
+0.6897
+],
+[
+0.5868,
+0.6897
+],
+[
+0.5868,
+0.8128
+],
+[
+0.4135,
+0.8128
+]
+]
+]
+},
+{
+"name": "Sign Next",
+"material": "Atlas2",
+"width": 0.291,
+"height": 0.29,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.3794,
+0.8793
+],
+[
+0.4958,
+0.8793
+],
+[
+0.4958,
+0.9955
+],
+[
+0.3794,
+0.9955
+]
+]
+]
+},
+{
+"name": "Sign Pause",
+"material": "Atlas2",
+"width": 0.291,
+"height": 0.29,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5043,
+0.8793
+],
+[
+0.6208,
+0.8793
+],
+[
+0.6208,
+0.9955
+],
+[
+0.5043,
+0.9955
+]
+]
+]
+},
+{
+"name": "Sign Play",
+"material": "Atlas2",
+"width": 0.293,
+"height": 0.295,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.1293,
+0.8783
+],
+[
+0.2463,
+0.8783
+],
+[
+0.2463,
+0.9963
+],
+[
+0.1293,
+0.9963
+]
+]
+]
+},
+{
+"name": "Sign Radioactive",
+"material": "Atlas2",
+"width": 0.45,
+"height": 0.448,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.7173,
+0.3397
+],
+[
+0.6272,
+0.4295
+],
+[
+0.5373,
+0.3392
+],
+[
+0.6272,
+0.2502
+]
+]
+]
+},
+{
+"name": "Sign Red Stripe",
+"material": "Atlas2",
+"width": 0.043,
+"height": 0.088,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5225,
+0.5073
+],
+[
+0.5398,
+0.5073
+],
+[
+0.5398,
+0.5423
+],
+[
+0.5225,
+0.5423
+]
+]
+]
+},
+{
+"name": "Sign Red Triangle",
+"material": "Atlas2",
+"width": 0.092,
+"height": 0.088,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5575,
+0.5073
+],
+[
+0.5943,
+0.5073
+],
+[
+0.5943,
+0.5423
+],
+[
+0.5575,
+0.5423
+]
+]
+]
+},
+{
+"name": "Sign Remote Operated",
+"material": "Atlas2",
+"width": 0.631,
+"height": 0.122,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.6074,
+0.8183
+],
+[
+0.8598,
+0.8183
+],
+[
+0.8598,
+0.8672
+],
+[
+0.6074,
+0.8672
+]
+]
+]
+},
+{
+"name": "Sign Restricted Area",
+"material": "Atlas2",
+"width": 0.513,
+"height": 0.187,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.3876,
+0.6101
+],
+[
+0.5927,
+0.6101
+],
+[
+0.5927,
+0.685
+],
+[
+0.3876,
+0.685
+]
+]
+]
+},
+{
+"name": "Sign Right",
+"material": "Atlas2",
+"width": 0.099,
+"height": 0.398,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.9534,
+0.8295
+],
+[
+0.993,
+0.8295
+],
+[
+0.993,
+0.9888
+],
+[
+0.9534,
+0.9888
+]
+]
+]
+},
+{
+"name": "Sign Separated Triangle",
+"material": "Atlas2",
+"width": 0.2,
+"height": 0.175,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8719,
+0.4393
+],
+[
+0.9519,
+0.4393
+],
+[
+0.9519,
+0.5094
+],
+[
+0.8719,
+0.5094
+]
+]
+]
+},
+{
+"name": "Sign Shopping Basket",
+"material": "Atlas2",
+"width": 0.291,
+"height": 0.29,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.2544,
+0.8793
+],
+[
+0.3708,
+0.8793
+],
+[
+0.3708,
+0.9955
+],
+[
+0.2544,
+0.9955
+]
+]
+]
+},
+{
+"name": "Sign Signal",
+"material": "Atlas2",
+"width": 0.502,
+"height": 0.091,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.3855,
+0.5594
+],
+[
+0.5863,
+0.5594
+],
+[
+0.5863,
+0.5957
+],
+[
+0.3855,
+0.5957
+]
+]
+]
+},
+{
+"name": "Sign Striped Arrow",
+"material": "Atlas2",
+"width": 0.189,
+"height": 0.188,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8501,
+0.5222
+],
+[
+0.8501,
+0.5975
+],
+[
+0.7747,
+0.5975
+],
+[
+0.7747,
+0.5222
+]
+]
+]
+},
+{
+"name": "Sign Three Dots",
+"material": "Atlas2",
+"width": 0.153,
+"height": 0.121,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.8687,
+0.6848
+],
+[
+0.8687,
+0.7054
+],
+[
+0.8533,
+0.733
+],
+[
+0.8234,
+0.733
+],
+[
+0.8073,
+0.7054
+],
+[
+0.8073,
+0.6848
+]
+]
+]
+},
+{
+"name": "Sign Trip Hazard",
+"material": "Atlas2",
+"width": 0.566,
+"height": 0.312,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.6249,
+0.8752
+],
+[
+0.8513,
+0.8752
+],
+[
+0.8513,
+1.0
+],
+[
+0.6249,
+1.0
+]
+]
+]
+},
+{
+"name": "Sign Type A",
+"material": "Atlas2",
+"width": 0.914,
+"height": 0.291,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.5567
+],
+[
+0.3657,
+0.5567
+],
+[
+0.3657,
+0.6732
+],
+[
+0.0,
+0.6732
+]
+]
+]
+},
+{
+"name": "Sign Up",
+"material": "Atlas2",
+"width": 0.169,
+"height": 0.098,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.4225,
+0.8255
+],
+[
+0.4903,
+0.8255
+],
+[
+0.4903,
+0.8645
+],
+[
+0.4225,
+0.8645
+]
+]
+]
+},
+{
+"name": "Sign Warning",
+"material": "Atlas2",
+"width": 0.172,
+"height": 0.153,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5337,
+0.3525
+],
+[
+0.5337,
+0.4138
+],
+[
+0.4647,
+0.4138
+],
+[
+0.4647,
+0.3525
+]
+]
+]
+},
+{
+"name": "Sign X",
+"material": "Atlas2",
+"width": 0.154,
+"height": 0.153,
+"faces": 1,
+"catalog": "Models-Signs",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.6105,
+0.6195
+],
+[
+0.672,
+0.6195
+],
+[
+0.672,
+0.6809
+],
+[
+0.6105,
+0.6809
+]
+]
+]
+},
+{
+"name": "Warning Stripes Black",
+"material": "Atlas2",
+"width": 0.625,
+"height": 0.123,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.75,
+0.0
+],
+[
+1.0,
+0.0
+],
+[
+1.0,
+0.0493
+],
+[
+0.75,
+0.0493
+]
+]
+]
+},
+{
+"name": "Warning Stripes Orange",
+"material": "Atlas2",
+"width": 0.625,
+"height": 0.125,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.0552
+],
+[
+0.25,
+0.0552
+],
+[
+0.25,
+0.105
+],
+[
+0.0,
+0.105
+]
+]
+]
+},
+{
+"name": "Warning Stripes Red White",
+"material": "Atlas2",
+"width": 0.625,
+"height": 0.123,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.5,
+0.0
+],
+[
+0.75,
+0.0
+],
+[
+0.75,
+0.0493
+],
+[
+0.5,
+0.0493
+]
+]
+]
+},
+{
+"name": "Warning Stripes White",
+"material": "Atlas2",
+"width": 0.625,
+"height": 0.123,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.25,
+0.0
+],
+[
+0.5,
+0.0
+],
+[
+0.5,
+0.0493
+],
+[
+0.25,
+0.0493
+]
+]
+]
+},
+{
+"name": "Warning Stripes Yellow",
+"material": "Atlas2",
+"width": 0.625,
+"height": 0.123,
+"faces": 1,
+"catalog": "Models-Warning",
+"tags": [
+"decal"
+],
+"outlines": [
+[
+[
+0.0,
+0.0
+],
+[
+0.25,
+0.0
+],
+[
+0.25,
+0.0493
+],
+[
+0.0,
+0.0493
+]
+]
+]
+}
+]
