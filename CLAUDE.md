@@ -146,9 +146,9 @@ and its placeholder is one step where their screen sits (0.99 m); ours sits 1.06
 reads exact positions and cannot see this; check the compiled positions (scratch `mwm_parts.py`) or a half-float copy.
 
 **Workshop.** The page is `Workshop/description.txt`, in Mal's voice. Published 2026-11-07 as an unlisted item, id
-3835340489, with Sprocket's se-workshop-publish skill (Sprocket's `.claude/skills`); its title is the folder's name
-until Mal renames it on the page. The repository stays private until Mal makes the mod public, and its link on the
-unlisted page 404s on purpose: https://github.com/malware-dev/SprocketProgrammableBlock.
+3835340489, with Sprocket's se-workshop-publish skill (Sprocket's `.claude/skills`), titled "Sprocket Programmable
+Block". Public since 2026-11-16, released with Sprocket, as is the repository:
+https://github.com/malware-dev/SprocketProgrammableBlock.
 
 Updating it, only when Mal asks, is Sprocket's se-workshop-publish skill with `--mods "SprocketProgrammableBlock"`.
 What is this mod's own:
@@ -159,6 +159,10 @@ What is this mod's own:
   page's description on every update.
 - The upload takes the deployed folder, `thumb.png` included, so it carries whatever was built last.
 - Check the materials for DLC (`check_dlc.py`, see "Changing the model") before it.
+- The mod has one Workshop item and no Bleeding Edge copy. If one is ever made, the stable copy must stand down in a
+  world that also holds it (Mal, 2026-11-16), recognizing only this mod's Bleeding Edge by its exact name or item id,
+  never by "(Bleeding Edge)" in any name. Sprocket's `Framework/Game/Copies/BleedingEdge.cs` and its tests are the
+  model; test it in a world that also holds another mod's Bleeding Edge.
 
 Sprocket Automation's own Workshop item, 3841033860 (public 2026-11-16), is linked from the description's and the
 README's Sprocket section. The thumbnail is Sprocket's Companion layout, owned by sprocket-main:
