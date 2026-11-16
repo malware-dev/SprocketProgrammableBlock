@@ -22,3 +22,6 @@ Released under the MIT License, which is included in the mod's files.
 The source lives at https://github.com/malware-dev/SprocketProgrammableBlock. Before publishing your own copy, please consider contributing there instead, so players know where each bug and feature lives and reports reach the right authors.
 
 [img]https://raw.githubusercontent.com/malware-dev/SprocketProgrammableBlock/main/ai-models-card.png[/img]
+
+[url=https://github.com/malware-dev/SprocketProgrammableBlock/issues][img]https://raw.githubusercontent.com/malware-dev/SprocketProgrammableBlock/main/Workshop/bug-report-card.png[/img][/url]
+Report a bug: https://github.com/malware-dev/SprocketProgrammableBlock/issues

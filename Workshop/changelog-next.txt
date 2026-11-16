@@ -1,1 +1,4 @@
-Fixed the keyboard tray's screen staying black: whatever a script or text puts on the keyboard surface now shows on the tray.
+The screen now sits properly inset in its glass, with rounded corners, instead of floating on top of it.
+Fixed shading streaks on the device's face and on the inset block's sides.
+Fixed the logo panel's silver rim fading out at its ends.
+The keyboard's screen now shows images, and the Offline screen when the block is off, as the block's other screens do.

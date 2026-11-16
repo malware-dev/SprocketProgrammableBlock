@@ -37,7 +37,10 @@ refill station comes in two. The device is the same in both.
   `build_models.py --square` still builds the near-square screen to compare. Each surface is built as Keen builds
   them: one quad of `CockpitScreen_0x`, UVs 0 to 1, and one half-float step behind it (see "Gaps and half floats") the
   `CockpitFighter_Interior` placeholder Keen's programmable block shows while a screen has no content (the game hides
-  a functional block's empty screen; it never shows the stock Online image).
+  a functional block's empty screen; it never shows the stock Online image). The glass is a slab 6 mm proud of the
+  face, and the screen sits in a pocket in it, 2.4 mm below its front (Mal, 2026-11-14: the screen must be inset).
+  The pocket's corners are rounded (25 mm) and the screen's are not, so the glass hides the screen's corners: Keen's
+  way on the Survival Kit II, whose rectangular screen is clipped by a frame in front with rounded inner corners.
 - **Detail.** Even Apple has panel lines: one `Panel Line Creased` seam round the shell 3 cm off the wall, and a
   power button (ButtonsAtlas Metal Button) in the face's lower right corner. Both in the paintable variants.
 - **Status.** A thin lit line under the glass: amber while asleep, green while running.
@@ -66,7 +69,9 @@ Through sprocket-main and in the HoverRepulsors session, where the first models 
   to the texture by `Assets/make_logo.py`: Bahnschrift SemiBold, the mockup's tighter tracking, the gear left of the
   wordmark at panel height, printed only (no glow). The tray's back carries the same panel. The logo spec from the
   reproduction sheet: never redraw the icon; brass top to bottom #8C6830, #EED296 .24, #C69E50 .44, #7A5826 .66,
-  #DCBC7A .82, #86642E; silver #D6E1EC, #F6FAFD .4, #C4D1DF; amber #EAB256 to #D2963E.
+  #DCBC7A .82, #86642E; silver #D6E1EC, #F6FAFD .4, #C4D1DF; amber #EAB256 to #D2963E. The sheet defines only the
+  stacked logo; the panel's one-line lockup keeps AUTOMATION tracked wider than SPROCKET, as the mockup has it. Mal
+  weighed even tracking on 2026-11-14 and left it.
 - **Height.** The screen's middle at standing eye height, about 1.6 m above the cell's floor, not centred. Mal: "we'll
   try your way first".
 - **Tray.** Swings down when a player stands at the device or opens the terminal, folds back about 2 s after they leave.
@@ -128,6 +133,11 @@ Learned in the game:
 - **The variant group.** Mal will not redefine Keen's `ProgrammableBlockGroup` (a mod's definition replaces it whole).
   `ProgrammableBlockVariants.cs` appends the mod's blocks to the loaded group at `LoadData` and reruns its
   `Postprocess()`; the whitelist allows it, and the block shows as a variant of Keen's.
+
+**Smoothing.** Smooth-shaded large flat faces showed streaks in the game (Mal, 2026-11-14): an n-gon exports as long
+thin triangles, which spread a vertex normal leaning toward a smoothed neighbour across the whole face. `keep_flat`
+marks every edge of a face of 0.1 m2 or more sharp, and the top's curve steps finer toward the face, so it meets the
+face at under a degree and no edge shows. The logo panels' corners match their texture's rim (`LOGO_CORNER`).
 
 **Gaps and half floats.** An `.mwm` stores vertex positions as half floats: steps of 0.49 mm between 0.5 and 1 m from
 the block's centre, 0.98 mm between 1 and 2 m. A gap smaller than a step rounds away. Keen's 0.5 mm between a screen

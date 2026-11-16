@@ -94,6 +94,7 @@ TRAY_CLEAR = 0.008      # from the well's floor to the folded tray: the logo pan
 WELL_DEPTH = TRAY_CLEAR + TRAY_THICK    # the folded tray's back is flush with the face
 WELL_GAP = 0.005        # between the folded tray and the well's walls
 LOGO_SIZE = (0.4, 0.4 * 0.09 / 0.59)    # the logo texture's panel, 0.59 x 0.09 m in the mockup, scaled to the tray
+LOGO_CORNER = LOGO_SIZE[1] * 40 / 136   # Design/logo_texture.html: the rim's outer corner, r 40 on a panel 136 high
 # The well's floor holds the logo at the top and the vent under it. The strip of tray below the hinge swings back into
 # the well, 21 mm round the hinge, so both stay above that.
 LOGO_Z = TRAY_TOP - 0.042
@@ -108,6 +109,8 @@ ART_PROUD = 0.0012      # the placeholder stands this far off what is behind it,
 SCREEN_PROUD = 0.0024   # and the screen as far again in front of it. An .mwm stores positions as half floats, in
                         # steps of 0.98 mm between 1 and 2 m from the block's centre: Keen's 0.5 mm gap is one step where
                         # their screen sits (0.99 m), and rounded away where ours does (1.06 to 1.13 m), so the two flickered.
+SCREEN_POCKET = 0.0048  # the pocket in the glass the screen sits in: the screen 2.4 mm below the glass's front
+SCREEN_CORNER = 0.025   # the pocket's corners, concentric with the glass's 50 mm corners round its 25 mm border
 
 
 def log(line):
@@ -198,6 +201,7 @@ class Part:
         if smooth:
             mesh.shade_smooth()
             mesh.set_sharp_from_angle(angle=math.radians(35))
+            keep_flat(mesh)
         obj = bpy.data.objects.new(name, mesh)
         self.collection.objects.link(obj)
         if self.root is None:
@@ -222,6 +226,19 @@ class Part:
 
     def rect(self, material, uv, at, normal, up, size):
         self.adopt(se_stamps.rect(material, uv, Vector(at) - self.origin, normal, up, size, collection=self.collection))
+
+
+FLAT_FACE = 0.1         # m2: a face this large keeps its own normal
+
+
+def keep_flat(mesh):
+    """Marks every edge of a large face sharp, so its normal is not smoothed into its neighbours. A large n-gon is
+    exported as long thin triangles, which spread a smoothed vertex's lean across the whole face as a streak."""
+    sharp = mesh.attributes.get("sharp_edge") or mesh.attributes.new("sharp_edge", "BOOLEAN", "EDGE")
+    for poly in mesh.polygons:
+        if poly.area >= FLAT_FACE:
+            for i in poly.loop_indices:
+                sharp.data[mesh.loops[i].edge_index].value = True
 
 
 def solid(verts, faces):
@@ -324,20 +341,20 @@ def well_cutter(back):
     return plate(outline, on_face(back, WELL_DEPTH - 0.002), WELL_DEPTH + 0.05)
 
 
-def shell(back, rings=10):
+def shell(back, curve_steps=10):
     """The shell: the device's outline from the front, carried from the wall to its face, with its top running down into
     the face over one curve."""
     outline_steps = 6
-    layers = []
-    for k in range(rings + 1):
-        t = k / rings
-        # Over the curve the top comes down, on a circle of radius CURVE, as the face is approached.
-        lift = 0.0
-        start = 1 - CURVE_RUN / DEPTH
-        if t > start:
-            s = (t - start) / (1 - start)
-            lift = CURVE_DROP * (1 - math.sqrt(max(0.0, 1 - s * s)))
+    start = 1 - CURVE_RUN / DEPTH
+    layers = [(0.0, rounded_outline(-WIDTH / 2, WIDTH / 2, BOTTOM, TOP, CORNER, outline_steps))]
+    # Over the curve the top comes down on a quarter ellipse, in steps of its angle that shrink toward the face, so the
+    # face, kept flat, meets the last step at under a degree and shows no edge.
+    for k in range(curve_steps + 1):
+        angle = math.radians(90 * math.sin(math.pi / 2 * k / curve_steps))
+        t = start + math.sin(angle) * (1 - start)
+        lift = CURVE_DROP * (1 - math.cos(angle))
         layers.append((t, rounded_outline(-WIDTH / 2, WIDTH / 2, BOTTOM, TOP - lift, CORNER, outline_steps)))
+    rings = len(layers) - 1
     verts = []
     for t, outline in layers:
         for x, z in outline:
@@ -356,16 +373,23 @@ def build_device(main, back):
     face = on_face(back)
     floor = on_face(back, WELL_DEPTH)
     main.add("Shell", carved(shell(back), well_cutter(back)), SHELL)
-    # The black glass, filling the face's width, and the screen inside it.
+    # The black glass, filling the face's width, and the screen set into a pocket in it, below the glass's front.
     glass_thickness = 0.006
-    glass = main.add("ScreenGlass_section", plate(rounded_outline(-SCREEN_HALF - 0.025, SCREEN_HALF + 0.025, SCREEN_BOTTOM - 0.025, SCREEN_TOP + 0.025, 0.05), face, glass_thickness), GLASS)
+    pocket_floor = lambda x, z: face(x, z) + FACE_NORMAL * (glass_thickness - SCREEN_POCKET)
+    # A plane function takes heights in world z; the screen's height runs up the leaning face.
+    # The pocket's corners are rounded and the screen's are not: its corners run into the glass, which hides them, as
+    # the Survival Kit's frame hides its screen's (SurvivalKit_Reskin.fbx: a frame 6.3 mm in front, inner corners r 15 mm).
+    pocket = [(x, EYE_Z + z * math.cos(LEAN)) for x, z in
+              rounded_outline(-SCREEN_HALF, SCREEN_HALF, -SCREEN_HEIGHT / 2, SCREEN_HEIGHT / 2, SCREEN_CORNER)]
+    slab = plate(rounded_outline(-SCREEN_HALF - 0.025, SCREEN_HALF + 0.025, SCREEN_BOTTOM - 0.025, SCREEN_TOP + 0.025, 0.05), face, glass_thickness)
+    glass = main.add("ScreenGlass_section", carved(slab, plate(pocket, pocket_floor, 0.01, sink=0)), GLASS)
     # The square screen's own standby image is still to be made; until then it shows the glass behind it.
-    add_surface(main, "Screen", face(0, EYE_Z) + FACE_NORMAL * glass_thickness, Vector((1, 0, 0)), FACE_UP,
+    add_surface(main, "Screen", pocket_floor(0, EYE_Z), Vector((1, 0, 0)), FACE_UP,
                 (2 * SCREEN_HALF, SCREEN_HEIGHT), SCREEN, None if SQUARE else SCREEN_ART)
     main.add("Status", plate(rounded_outline(-0.13, 0.13, STATUS_Z - 0.006, STATUS_Z + 0.006, 0.006, 2), face, 0.004), STATUS, (0.40, 0.14, 0.50, 0.24))
     # On the floor of the tray's well: the logo on its glass panel, and a vent under it.
     w, h = LOGO_SIZE
-    main.add("LogoPanel", plate(rounded_outline(-w / 2, w / 2, LOGO_Z - h / 2, LOGO_Z + h / 2, 0.027), floor, 0.005), LOGO, (0, 0, 1, 1), smooth=False)
+    main.add("LogoPanel", plate(rounded_outline(-w / 2, w / 2, LOGO_Z - h / 2, LOGO_Z + h / 2, LOGO_CORNER), floor, 0.005), LOGO, (0, 0, 1, 1), smooth=False)
     main.adopt(se_stamps.stamp("Atlas3", "Slim Vent", at=floor(0, VENT_Z), normal=FACE_NORMAL, up=Vector((1, 0, 0)),
                                scale=VENT_SCALE, material=VENT, collection=main.collection))
     hinge = tray_hinge(back)
@@ -524,7 +548,7 @@ def build_tray(name, back):
     part.add("Tray", plate(outline, on_face(back, TRAY_THICK - 0.002), TRAY_THICK - 0.002), SHELL)
     w, h = LOGO_SIZE
     mid = (TRAY_BOTTOM + TRAY_TOP) / 2
-    part.add("TrayLogo", plate(rounded_outline(-w / 2, w / 2, mid - h / 2, mid + h / 2, 0.027), face, 0.001),
+    part.add("TrayLogo", plate(rounded_outline(-w / 2, w / 2, mid - h / 2, mid + h / 2, LOGO_CORNER), face, 0.001),
              LOGO, (0, 0, 1, 1), smooth=False)
     # The keys face the device while the tray is folded, and face up once it swings down: the hinge's edge is then the
     # far one, and the tray's top edge the near one. Their screen quad is a subpart of its own, for the mod's code to hide
