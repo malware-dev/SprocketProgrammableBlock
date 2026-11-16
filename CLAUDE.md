@@ -160,8 +160,8 @@ What is this mod's own:
 - The upload takes the deployed folder, `thumb.png` included, so it carries whatever was built last.
 - Check the materials for DLC (`check_dlc.py`, see "Changing the model") before it.
 
-Sprocket Automation's own Workshop link goes into the description's Sprocket section once Sprocket is released
-(planned 2026-11-16). The thumbnail is Sprocket's Companion layout, owned by sprocket-main:
+Sprocket Automation's own Workshop item, 3841033860 (public 2026-11-16), is linked from the description's and the
+README's Sprocket section. The thumbnail is Sprocket's Companion layout, owned by sprocket-main:
 `..\Sprocket\art\thumbnail\build_companion_thumb.py Assets\Screenshots\01-both-variants.jpg "Programmable Block"
 SprocketProgrammableBlock\thumb.png 0.07 0.19 0.93 0.83`. The blocks are named "Sprocket Programmable Block" and
 "... Inset" (Mal: the full company name is too long); the subtypes keep their ids.

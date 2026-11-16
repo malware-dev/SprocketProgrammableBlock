@@ -17,6 +17,8 @@ This is a perfectly fine programmable block all on its own. It doesn't need anyt
 
 It does carry the name for a reason, though. Add **Sprocket Automation** and your ship's automation runs right here, without a single line of script: logic systems with triggers that run their steps in order, waiting on what your blocks are actually doing (a door that's actually closed) instead of on timers. Sprocket lives in every programmable block on the ship, so losing one doesn't lose your logic, and a backup can restore it to a new ship.
 
+Get it on the Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3841033860
+
 ## Building the models
 
 ![AI-made models](ai-models-card.png)
